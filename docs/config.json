@@ -1,0 +1,70 @@
+{
+    "movies": [
+        {
+            "title": "test",
+            "thumbnail": "https://static.wixstatic.com/media/fccd3f_6b887a776c594094b0d1beb0c0f4bdcf~mv2.jpg/v1/fill/w_674,h_379,q_85/fccd3f_6b887a776c594094b0d1beb0c0f4bdcf~mv2.webp",
+            "video": "https://player.vimeo.com/video/811717286?title=0&autopause=0&controls=0&app_id=122963"
+        },
+        {
+            "title": "test",
+            "thumbnail": "https://static.wixstatic.com/media/fccd3f_6b887a776c594094b0d1beb0c0f4bdcf~mv2.jpg/v1/fill/w_674,h_379,q_85/fccd3f_6b887a776c594094b0d1beb0c0f4bdcf~mv2.webp",
+            "video": "https://player.vimeo.com/video/811717286?title=0&autopause=0&controls=0&app_id=122963"
+        }
+        ,{
+            "title": "test",
+            "thumbnail": "https://static.wixstatic.com/media/fccd3f_6b887a776c594094b0d1beb0c0f4bdcf~mv2.jpg/v1/fill/w_674,h_379,q_85/fccd3f_6b887a776c594094b0d1beb0c0f4bdcf~mv2.webp",
+            "video": "https://player.vimeo.com/video/811717286?title=0&autopause=0&controls=0&app_id=122963"
+        },
+        {
+            "title": "test",
+            "thumbnail": "https://static.wixstatic.com/media/fccd3f_6b887a776c594094b0d1beb0c0f4bdcf~mv2.jpg/v1/fill/w_674,h_379,q_85/fccd3f_6b887a776c594094b0d1beb0c0f4bdcf~mv2.webp",
+            "video": "https://player.vimeo.com/video/811717286?title=0&autopause=0&controls=0&app_id=122963"
+        }
+    ],
+    "reels": [
+        {
+            "title": "test",
+            "thumbnail": "https://static.wixstatic.com/media/fccd3f_6b887a776c594094b0d1beb0c0f4bdcf~mv2.jpg/v1/fill/w_674,h_379,q_85/fccd3f_6b887a776c594094b0d1beb0c0f4bdcf~mv2.webp",
+            "video": "https://player.vimeo.com/video/811717286?title=0&autopause=0&controls=1&app_id=122963"
+        }
+    ],
+    "contact": {
+        "phone":"+84 4234242343",
+        "email":"sdfsdf@sdsd.com",
+        "youtube":"sdsdsd"
+    },
+    "cv": {
+        "featureFilms": [
+            {
+                "title": "HE AIN'T HEAVY (2023)",
+                "credits": "Dir David Vincent Smith / Prod Jess Parker / No Labels Media"
+            },
+            {
+                "title": "KOKO - A RED DOG STORY (2019)",
+                "credits": "Dir Aaron McCann, Dominic Pearce / Woss Group Film Productions / Good Dog Enterprises "
+            }
+        ],
+        "commercials": [
+            {
+                "title": "PUMA, Watches of Switzerland, Squarespace, Steel Blue, WA Police, Meshki, RAC, Case",
+                "credits": ""
+            },
+            {
+                "title": "Construction, Lotterywest, Bankwest, HBF, P&N Bank, Australian Army, Canteen Australia, QT Hotels, WAEC, NDIS, VICE, Byron Bay Brewery",
+                "credits": ""
+            }
+        ],
+        "musicVideos": [
+            {
+                "title": "Universal Music, Sony Music, Warner Music",
+                "credits": ""
+            }
+        ],
+        "shortFilms": [
+            "2023 Jayle",
+            "2022 Content Kingz - Musicbed Challenge Best Spec Ad Winner",
+            "2022 Mettle - WASCA Best Cinematography Nomination"
+        ]
+    }
+
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS Project with Vue 3</title>
+    <link href="style.css" rel="stylesheet">
+    <!-- Add Vue 3 CDN -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body class="bg-gray-100">
+    <div id="app" class="container mx-auto mt-8">
+        <!-- Loading screen -->
+        <div v-if="loading" class="flex justify-center items-center h-screen">
+            <svg 
+                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" 
+                class="size-6 mr-3">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m15.75 10.5 4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z" />
+            </svg>              
+            <p class="text-2xl">Loading...</p>
+        </div>
+
+        <!-- Main content (only shown after loading) -->
+        <template v-if="!loading">
+            <header class="flex justify-between mb-8">
+                <div>
+                    <p class="text-3xl uppercase">Nhật Anh</p>
+                    <p class="text-md uppercase">Director of photography</p>
+                </div>
+                <nav class="space-x-4 uppercase">
+                    <a @click="currentSection = 'movies'" 
+                        href="#" 
+                        class="text-gray-400 hover:text-gray-900"
+                        :class="{ 'text-gray-700': currentSection === 'movies' }">Movies</a>
+                    <a @click="currentSection = 'reels'" 
+                        href="#" 
+                        class="text-gray-400 hover:text-gray-900"
+                        :class="{ 'text-gray-700': currentSection === 'reels' }">Reels</a>
+                    <a @click="currentSection = 'contact'" 
+                        href="#" 
+                        class="text-gray-400 hover:text-gray-900"
+                        :class="{ 'text-gray-700': currentSection === 'contact' }">Contact</a>
+                </nav>
+            </header>
+            <main class="mb-16">
+                <section v-if="currentSection === 'movies'">
+                    <p class="text-center mb-4">Here you can find information about my movie projects.</p>
+                    <div class="grid grid-cols-2">
+                        <div v-for="movie in config.movies">
+                            <a 
+                                :href="movie.video"
+                                class="relative block group">
+                                <img 
+                                    :src="movie.thumbnail" 
+                                    class="transition-opacity duration-300 group-hover:opacity-75"
+                                />
+                                <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-25 transition-opacity duration-500">
+                                </div>
+                                <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                                    <span class="text-white text-lg">{{ movie.title }}</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <section v-else-if="currentSection === 'reels'">
+                    <div class="mb-4">
+                        <h3 class="text-xl text-center mb-4">{{ config.reels[0].title }}</h3>
+                        <div data-player-name="Vimeo" data-testid="vimeo" data-vimeo-initialized="true" class="w-full">
+                            <iframe :src="config.reels[0].video" 
+                                :style="{ width: '100%', height: 'calc(100vw * 9 / 16)' }"
+                                frameborder="0" 
+                                allow="autoplay; fullscreen; picture-in-picture" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                </section>
+                <section v-else-if="currentSection === 'contact'">
+                    <h2 class="text-2xl text-center mb-4">Contact</h2>
+                    <p class="text-center mb-2">Get in touch with me for collaborations or inquiries.</p>
+                    <div class="text-center text-grey-500 mb-8">
+                        <p>{{ config.contact.phone }}</p>
+                        <a :href="'mailto: ' + config.contact.email">{{ config.contact.email }}</a>
+                    </div>
+                    <div class="grid grid-cols-3 space-y-6">
+                        <div class="col-start-2">
+                            <h3 class="text-2xl font-semibold">Feature Films</h3>
+                            <div v-for="project in config.cv.featureFilms">
+                                <h4>{{ project.title }}</h4>
+                                <p>{{ project.credit }}</p>    
+                            </div>
+                        </div>
+                        <div class="col-start-2">
+                            <h3 class="text-2xl font-semibold">Commercials</h3>
+                            <div v-for="project in config.cv.commercials">
+                                <h4>{{ project.title }}</h4>
+                                <p>{{ project.credit }}</p>    
+                            </div>
+                        </div>
+                        <div class="col-start-2">
+                            <h3 class="text-2xl font-semibold">Music Videos</h3>
+                            <div v-for="project in config.cv.musicVideos">
+                                <h4>{{ project.title }}</h4>
+                                <p>{{ project.credit }}</p>    
+                            </div>
+                        </div>
+                        <div class="col-start-2">
+                            <h3 class="text-2xl font-semibold">Short Films</h3>
+                            <div v-for="project in config.cv.shortFilms">
+                                <h4>{{ project.title }}</h4>
+                                <p>{{ project.credit }}</p>    
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </template>
+    </div>
+
+    <!-- Add Vue app script -->
+    <script>
+        const { createApp } = Vue
+
+        createApp({
+            data() {
+                return {
+                    currentSection: 'movies',
+                    loading: true,
+                    config: null
+                }
+            },
+            mounted() {
+                this.fetchConfig()
+            },
+            methods: {
+                async fetchConfig() {
+                    try {
+                        const response = await fetch('config.json')
+                        this.config = await response.json()
+                        this.loading = false
+                    } catch (error) {
+                        console.error('Error fetching config:', error)
+                        // You might want to handle the error more gracefully here
+                        this.loading = false
+                    }
+                }
+            }
+        }).mount('#app')
+    </script>
+</body>
+</html>
