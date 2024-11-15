@@ -1,23 +1,102 @@
 {
-    "movies": [
+    "projects": [
         {
-            "title": "test",
-            "thumbnail": "https://static.wixstatic.com/media/fccd3f_6b887a776c594094b0d1beb0c0f4bdcf~mv2.jpg/v1/fill/w_674,h_379,q_85/fccd3f_6b887a776c594094b0d1beb0c0f4bdcf~mv2.webp",
+            "title": "Số 1",
+            "description": "s455 ydfdfgdv dsf sdf sfsdfsd fsdf sdf sdf sdf sdâsđâsdấđá",
+            "images": [
+                {
+                    "title": "",
+                    "url": "https://static.wixstatic.com/media/fccd3f_6b887a776c594094b0d1beb0c0f4bdcf~mv2.jpg/v1/fill/w_674,h_379,q_85/fccd3f_6b887a776c594094b0d1beb0c0f4bdcf~mv2.webp"
+                },
+                {
+                    "title": "",
+                    "url": "https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+                },
+                {
+                    "title": "",
+                    "url": "https://hatrabbits.com/wp-content/uploads/2017/01/tafel-1.jpg"
+                }
+            ],
             "video": "https://player.vimeo.com/video/811717286?title=0&autopause=0&controls=0&app_id=122963"
         },
         {
-            "title": "test",
-            "thumbnail": "https://static.wixstatic.com/media/fccd3f_6b887a776c594094b0d1beb0c0f4bdcf~mv2.jpg/v1/fill/w_674,h_379,q_85/fccd3f_6b887a776c594094b0d1beb0c0f4bdcf~mv2.webp",
-            "video": "https://player.vimeo.com/video/811717286?title=0&autopause=0&controls=0&app_id=122963"
-        }
-        ,{
-            "title": "test",
-            "thumbnail": "https://static.wixstatic.com/media/fccd3f_6b887a776c594094b0d1beb0c0f4bdcf~mv2.jpg/v1/fill/w_674,h_379,q_85/fccd3f_6b887a776c594094b0d1beb0c0f4bdcf~mv2.webp",
+            "title": "Đam mê - DLS 2023",
+            "category": "documentary",
+            "description": "sdsdadấđâsđááđa adá đá sađâsđâsđâsđâsdấđá",
+            "images": [
+                {
+                    "title": "",
+                    "url": "http://img.youtube.com/vi/Le1fL3YySks/0.jpg"
+                },
+                {
+                    "title": "",
+                    "url": "https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+                },
+                {
+                    "title": "",
+                    "url": "https://hatrabbits.com/wp-content/uploads/2017/01/tafel-1.jpg"
+                }
+            ],
+            "video": "https://youtu.be/Le1fL3YySks"
+        },
+        {
+            "title": "Helen Bui - Batdongsan.com.vn - 2021",
+            "category": "after-movie",
+            "description": "sdsdadấđâsđááđa adá đá sađâsđâsđâsđâsdấđá",
+            "images": [
+                {
+                    "title": "",
+                    "url": "http://img.youtube.com/vi/VyLiEo54EWM/hqdefault.jpg"
+                },
+                {
+                    "title": "",
+                    "url": "https://lh3.google.com/u/0/d/1qSD2ckVeypDtzmjm1-yjywy8fLbElb24=w1366-h649-iv1"
+                },
+                {
+                    "title": "",
+                    "url": "https://lh3.google.com/u/0/d/10greinw0u4kIC0pAQYRtDUYUqEH9NVqm=w1366-h649-iv1"
+                }
+            ],
             "video": "https://player.vimeo.com/video/811717286?title=0&autopause=0&controls=0&app_id=122963"
         },
         {
-            "title": "test",
-            "thumbnail": "https://static.wixstatic.com/media/fccd3f_6b887a776c594094b0d1beb0c0f4bdcf~mv2.jpg/v1/fill/w_674,h_379,q_85/fccd3f_6b887a776c594094b0d1beb0c0f4bdcf~mv2.webp",
+            "title": "Hành trình gieo niềm tin - 2024",
+            "category": "others",
+            "description": "sdsdadấđâsđááđa adá đá sađâsđâsđâsđâsdấđá",
+            "images": [
+                {
+                    "title": "",
+                    "url": "http://img.youtube.com/vi/A51P-ZQsTSs/hqdefault.jpg"
+                },
+                {
+                    "title": "",
+                    "url": "https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+                },
+                {
+                    "title": "",
+                    "url": "https://hatrabbits.com/wp-content/uploads/2017/01/tafel-1.jpg"
+                }
+            ],
+            "video": "https://youtu.be/A51P-ZQsTSs"
+        },
+        {
+            "title": "test 2222222",
+            "category": "others",
+            "description": "sdsdadấđâsđááđa adá đá sađâsđâsđâsđâsdấđá",
+            "images": [
+                {
+                    "title": "",
+                    "url": "https://static.wixstatic.com/media/fccd3f_6b887a776c594094b0d1beb0c0f4bdcf~mv2.jpg/v1/fill/w_674,h_379,q_85/fccd3f_6b887a776c594094b0d1beb0c0f4bdcf~mv2.webp"
+                },
+                {
+                    "title": "",
+                    "url": "https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg"
+                },
+                {
+                    "title": "",
+                    "url": "https://hatrabbits.com/wp-content/uploads/2017/01/tafel-1.jpg"
+                }
+            ],
             "video": "https://player.vimeo.com/video/811717286?title=0&autopause=0&controls=0&app_id=122963"
         }
     ],
@@ -29,8 +108,8 @@
         }
     ],
     "contact": {
-        "phone":"+84 4234242343",
-        "email":"sdfsdf@sdsd.com",
+        "phone":"📱 +84 977319900",
+        "email":"📧 nhatap@gmail.com",
         "youtube":"sdsdsd"
     },
     "cv": {
@@ -66,5 +145,4 @@
             "2022 Mettle - WASCA Best Cinematography Nomination"
         ]
     }
-
 }
