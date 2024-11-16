@@ -14,7 +14,7 @@
     setup(){
       const loading = ref(true)
       const config = ref(null)
-      const currentRoute = reactive({
+      const currentRoute = ref({
         view: null,
         name: '',
         data: null
@@ -38,30 +38,45 @@
 
         switch (routeIndex) {
           case 'home':
-            currentRoute.view = markRaw(Projects),
-            currentRoute.name = 'home',
-            currentRoute.data = config.value.projects.filter((project) => {
-                return project.category == 'documentary'
-              })
+            currentRoute.value = {
+              view: markRaw(Projects),
+              name: 'home',
+              data: {
+                projects: config.value.projects.filter((project) => {
+                  return project.category == 'documentary'
+                }),
+                category: 'documentary'
+              }
+            }
             break
           case 'projects':
-            currentRoute.view = markRaw(Projects),
-            currentRoute.name = 'projects',
-            currentRoute.data = config.value.projects.filter((project) => {
-                return project.category == routeParam
-              })
+            currentRoute.value = {
+              view: markRaw(Projects),
+              name: 'projects',
+              data: {
+                projects: config.value.projects.filter((project) => {
+                  return project.category == routeParam
+                }),
+                category: routeParam
+              }
+            }
             break
           case 'project':
-            currentRoute.view = markRaw(Project),
-            currentRoute.name = 'project',
-            currentRoute.data = config.value.projects[routeParam]
+            currentRoute.value = {
+              view: markRaw(Project),
+              name: 'project',
+              data: config.value.projects.filter((project) => {
+                return project.slug == routeParam
+              })[0],
+            }
+
+            console.log(currentRoute.value)
             break
         }        
       }
 
       window.addEventListener('hashchange', () => {
         route(window.location.hash)
-        console.log(currentRoute.data)
       })
       
 
@@ -75,14 +90,14 @@
     template: `
     <loading-screen v-if="loading" />
     <template v-if="!loading">
-        <header class="flex justify-between mb-8">
-            <div>
+        <header class="relative justify-between mb-8">
+            <div class="fixed">
                 <p class="text-3xl uppercase">Nhật Anh</p>
                 <p class="text-md uppercase">A worker loves making films</p>
                 <p class="text-sm">📧 nhatap@gmail.com</p>
                 <p class="text-sm">📱 +84 977319900</p>
             </div>
-            <nav class="space-x-4 uppercase text-gray-300">
+            <nav class="fixed right-9 space-x-4 uppercase text-gray-300">
                 <a href="#/" 
                     class="hover:text-gray-100"
                     :class="{ 'text-white font-bold': [ 'home', 'projects' ].includes(currentRoute.name) }">Projects</a>
@@ -91,7 +106,7 @@
                     :class="{ 'text-white font-bold': currentRoute.name === 'reels' }">Reels</a>
             </nav>
         </header>        
-        <main class="mb-16">
+        <main class="mb-16 pt-32">
           <component 
             :is="currentRoute.view"
             :data="currentRoute.data" />

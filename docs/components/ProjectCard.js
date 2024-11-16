@@ -16,18 +16,20 @@ export const ProjectCard = {
         const isTimerPaused = ref(false);
 
         const nextSlide = () => {
-            currentSliderIndex.value = (currentSliderIndex.value + 1) % images.length;
+            currentSliderIndex.value = (currentSliderIndex.value + 1) % images.value.length;
             isTimerPaused ? '' : startSlider()
         };
 
         const prevSlide = () => {
-            currentSliderIndex.value = (currentSliderIndex.value - 1 + images.length) % images.length;
+            currentSliderIndex.value = (currentSliderIndex.value - 1 + images.value.length) % images.value.length;
             isTimerPaused ? '' : startSlider()
         };
 
         const startSlider = () => {
             if (! intervalId) {
+                // started right from second image
                 currentSliderIndex.value = 1
+
                 intervalId = setInterval(() => {
                     nextSlide();
                 }, 2000);
@@ -48,9 +50,9 @@ export const ProjectCard = {
 
         // startSlider();
 
-        const projectPageUrl = computed(() => {
-            return '#/project/' + props.project.title
-        })
+        const projectPageUrl = computed(() => '#/project/' + props.project.slug)
+
+        const parsedDescription = computed(() => props.project.description.replace('\n', '<br>'))
 
         onUnmounted(() => {
             clearInterval(intervalId);
@@ -59,7 +61,10 @@ export const ProjectCard = {
         return { 
             images,
             projectPageUrl,
-            nextSlide, prevSlide, isTimerPaused, stopSlider, playSlider, startSlider, currentSliderIndex }
+            parsedDescription,
+            stopSlider,
+            startSlider,
+            currentSliderIndex }
     },
     template: `
     <a 
@@ -97,7 +102,7 @@ export const ProjectCard = {
         </div>                    
         <div class="">
             <h3 class="mt-4 text-2xl font-medium">{{ project.title }}</h3>
-            <p class="mt-3 mb-12">{{ project.description }}</p>
+            <p class="mt-3 mb-12" v-html="parsedDescription"></p>
         </div>
     </a>`
 }
