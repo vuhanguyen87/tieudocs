@@ -90,14 +90,14 @@
     template: `
     <loading-screen v-if="loading" />
     <template v-if="!loading">
-        <header class="relative justify-between mb-8">
-            <div class="fixed">
-                <p class="text-3xl uppercase">Nhật Anh</p>
+        <header class="relative w-full text-center md:text-left">
+            <div class="md:fixed">
+                <p class="text-3xl uppercase">Pham Nhat Anh</p>
                 <p class="text-md uppercase">A worker loves making films</p>
-                <p class="text-sm">📧 nhatap@gmail.com</p>
-                <p class="text-sm">📱 +84 977319900</p>
+                <p class="text-sm">+84 977319900</p>
+                <p class="text-sm">nhatap@gmail.com</p>
             </div>
-            <nav class="fixed right-9 space-x-4 uppercase text-gray-300">
+            <nav class="mt-4 md:mt-0 md:fixed md:right-9 space-x-4 uppercase text-gray-300">
                 <a href="#/" 
                     class="hover:text-gray-100"
                     :class="{ 'text-white font-bold': [ 'home', 'projects' ].includes(currentRoute.name) }">Projects</a>
@@ -106,7 +106,7 @@
                     :class="{ 'text-white font-bold': currentRoute.name === 'reels' }">Reels</a>
             </nav>
         </header>        
-        <main class="mb-16 pt-32">
+        <main class="mb-16 mt-4 md:pt-32 md:mt-0">
           <component 
             :is="currentRoute.view"
             :data="currentRoute.data" />

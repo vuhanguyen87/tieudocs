@@ -100,8 +100,8 @@ export const ProjectCard = {
                 </transition>
             </template>
         </div>                    
-        <div class="">
-            <h3 class="mt-4 text-2xl font-medium">{{ project.title }}</h3>
+        <div class="mt-4 mx-3 md:mx-0 text-center md:text-left">
+            <h3 class="text-2xl font-medium">{{ project.title }}</h3>
             <p class="mt-3 mb-12" v-html="parsedDescription"></p>
         </div>
     </a>`

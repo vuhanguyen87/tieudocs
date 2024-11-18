@@ -21,9 +21,9 @@ export const Project = {
                 allowfullscreen>
             </iframe>
         </div>
-        <div class="mt-8 flex space-x-6">
+        <div class="mt-4 md:mt-8 mx-4 md:mx-0 flex space-x-6">
             <div v-for="image of project.images" class="">
-                <img :src="image.url" class="w-[180px] h-[180px] object-cover border-2 border-white" />
+                <img :src="image.url" class="w-[180px] aspect-square object-cover border-2 border-white" />
             </div>
         </div>
     </section>`

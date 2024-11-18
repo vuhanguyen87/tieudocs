@@ -25,9 +25,11 @@ export const Projects = {
     },
     template: `
     <section>
-        <ul class="flex justify-center space-x-4">
+        <ul class="grid grid-cols-2 md:grid-cols-none md:flex justify-center mx-3 md:space-x-4">
             <template v-for="category, index in categories" :key="index">
-                <li v-if="index == 'documentary'">
+                <li 
+                    v-if="index == 'documentary'"
+                    class="before:content-['•'] md:before:content-none">
                     <a 
                         class="py-2"
                         :class="{ 'font-bold': selectedCategory == 'documentary' }"
@@ -36,7 +38,7 @@ export const Projects = {
                 </li>
                 <li v-else class="before:content-['•']">
                     <a 
-                        class="py-2 pl-3" 
+                        class="py-2 md:pl-3" 
                         :href="'#/projects/' + index"
                         :class="{ 'font-bold': selectedCategory == index }"
                         >{{ category }}</a>
