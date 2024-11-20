@@ -70,7 +70,6 @@
               })[0],
             }
 
-            console.log(currentRoute.value)
             break
         }        
       }
@@ -90,20 +89,20 @@
     template: `
     <loading-screen v-if="loading" />
     <template v-if="!loading">
-        <header class="relative w-full text-center md:text-left">
-            <div class="md:fixed">
+        <header class="md:flex md:justify-between md:fixed md:container w-full text-center md:text-left">
+            <div class="">
                 <p class="text-3xl uppercase">Pham Nhat Anh</p>
                 <p class="text-md uppercase">A worker loves making films</p>
                 <p class="text-sm">+84 977319900</p>
                 <p class="text-sm">nhatap@gmail.com</p>
             </div>
-            <nav class="mt-4 md:mt-0 md:fixed md:right-9 space-x-4 uppercase text-gray-300">
+            <nav class="mt-4 md:mt-0 space-x-4 uppercase text-gray-300">
                 <a href="#/" 
                     class="hover:text-gray-100"
                     :class="{ 'text-white font-bold': [ 'home', 'projects' ].includes(currentRoute.name) }">Projects</a>
-                <a href="#/reels" 
+                <a href="#/blog" 
                     class="hover:text-gray-100"
-                    :class="{ 'text-white font-bold': currentRoute.name === 'reels' }">Reels</a>
+                    :class="{ 'text-white font-bold': currentRoute.name === 'blog' }">Blog</a>
             </nav>
         </header>        
         <main class="mb-16 mt-4 md:pt-32 md:mt-0">

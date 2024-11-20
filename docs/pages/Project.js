@@ -5,13 +5,13 @@ export const Project = {
     setup(props){
         const project = computed(() => props.data)
         const ytEmbedUrl = computed(() => 'https://www.youtube.com/embed/' + project.value.video.split('/').slice(-1)[0])
-        const parsedDescription = computed(() => project.value.description.replace('\n', '<br>'))
-        return { project, ytEmbedUrl, parsedDescription }
+        return { project, ytEmbedUrl }
     },
     template: `
-    <section>
-        <h1 class="text-2xl text-center">{{ project.title }}</h1>
-        <p class="text-center" v-html="parsedDescription"></p>
+    <section class="text-center">
+        <h1 class="text-2xl font-bold">{{ project.title }}</h1>
+        <p class="text-2xl">{{ project.roles }}</p>
+        <p class="">{{ project.description }}</p>
         <div class="mt-8 relative w-full" style="padding-bottom: 56.25%;">
             <iframe 
                 class="absolute top-0 left-0 w-full h-full"

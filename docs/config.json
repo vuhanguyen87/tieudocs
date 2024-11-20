@@ -2,7 +2,9 @@
     "projects": [
         {
             "title": "Số 1",
-            "description": "s455 ydfdfgdv dsf sdf sfsdfsd fsdf sdf sdf sdf sdâsđâsdấđá",
+            "roles": "DoP",
+            "description": "PH: Dream Forest Pictures",
+            "category": "documentary",
             "images": [
                 {
                     "title": "",
@@ -17,14 +19,60 @@
                     "url": "https://hatrabbits.com/wp-content/uploads/2017/01/tafel-1.jpg"
                 }
             ],
-            "slug": "sdsd",
+            "slug": "sdsdssssss",
             "video": "https://player.vimeo.com/video/811717286?title=0&autopause=0&controls=0&app_id=122963"
         },
         {
             "title": "Đam mê - DLS 2023",
             "category": "documentary",
             "slug": "dam-me-dls-2023",
-            "description": "DoP\nPH: Dream Forest Pictures",
+            "roles": "DoP",
+            "description": "PH: Dream Forest Pictures",
+            "images": [
+                {
+                    "title": "",
+                    "url": "./assets/d25922e2-9226-4d41-b5ed-a3dc230c5227.jpeg"
+                },
+                {
+                    "title": "",
+                    "url": "http://img.youtube.com/vi/Le1fL3YySks/maxresdefault.jpg"
+                },
+                {
+                    "title": "",
+                    "url": "https://hatrabbits.com/wp-content/uploads/2017/01/tafel-1.jpg"
+                }
+            ],
+            "video": "https://youtu.be/Le1fL3YySks"
+        },
+        {
+            "title": "Đam mê - DLS 2023",
+            "category": "documentary",
+            "slug": "dam-me-dls-2023",
+            "roles": "DoP",
+            "description": "PH: Dream Forest Pictures",
+            "images": [
+                {
+                    "title": "",
+                    "url": "./assets/d25922e2-9226-4d41-b5ed-a3dc230c5227.jpeg"
+                },
+                {
+                    "title": "",
+                    "url": "http://img.youtube.com/vi/Le1fL3YySks/maxresdefault.jpg"
+                },
+                {
+                    "title": "",
+                    "url": "https://hatrabbits.com/wp-content/uploads/2017/01/tafel-1.jpg"
+                }
+            ],
+            "video": "https://youtu.be/Le1fL3YySks"
+        },
+
+        {
+            "title": "Đam mê - DLS 2023",
+            "category": "documentary",
+            "slug": "dam-me-dls-2023",
+            "roles": "DoP",
+            "description": "PH: Dream Forest Pictures",
             "images": [
                 {
                     "title": "",

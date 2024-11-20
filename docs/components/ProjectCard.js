@@ -52,8 +52,6 @@ export const ProjectCard = {
 
         const projectPageUrl = computed(() => '#/project/' + props.project.slug)
 
-        const parsedDescription = computed(() => props.project.description.replace('\n', '<br>'))
-
         onUnmounted(() => {
             clearInterval(intervalId);
         })
@@ -61,7 +59,6 @@ export const ProjectCard = {
         return { 
             images,
             projectPageUrl,
-            parsedDescription,
             stopSlider,
             startSlider,
             currentSliderIndex }
@@ -102,7 +99,8 @@ export const ProjectCard = {
         </div>                    
         <div class="mt-4 mx-3 md:mx-0 text-center md:text-left">
             <h3 class="text-2xl font-medium">{{ project.title }}</h3>
-            <p class="mt-3 mb-12" v-html="parsedDescription"></p>
+            <p class="mt-3 text-xl">{{ project.roles }}</p>
+            <p class="mt-1 mb-12">{{ project.description }}</p>
         </div>
     </a>`
 }
