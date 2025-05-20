@@ -1,0 +1,40 @@
+media:
+  input: src/media
+  output: media
+content:
+  - name: projects
+    label: Projects
+    path: src/_posts
+    type: collection
+    fields:
+      - name: title
+        label: Title
+        type: text
+        options:
+          maxlength: 140
+      - name: role
+        label: Roles
+        type: text
+        options:
+          maxlength: 140
+      - name: description
+        label: Description
+        type: text
+      - name: category
+        label: Category
+        type: select
+        options:
+          values: [ Documentary, Product Videos, After Movies, Coorperate Videos, Others ]
+      - name: images
+        label: Images
+        type: image
+        list: true
+      - name: slug
+        label: Slug
+        type: text
+        options:
+          maxlength: 20
+      - name: video
+        label: Video
+        type: text
+      
