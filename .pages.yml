@@ -1,10 +1,10 @@
 media:
-  input: src/media
+  input: docs/media
   output: media
 content:
   - name: projects
     label: Projects
-    path: src/_posts
+    path: docs/_projects
     type: collection
     fields:
       - name: title
