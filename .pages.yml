@@ -37,4 +37,19 @@ content:
       - name: video
         label: Video
         type: text
-      
+  - name: blogs
+    label: Blogs
+    path: docs/_blogs
+    type: collection
+    fields:
+      - name: title
+        label: Title
+        type: text
+        options:
+          maxlength: 140
+      - name: cover
+        label: Cover
+        type: image
+      - name: content
+        label: Content
+        type: rich-text
