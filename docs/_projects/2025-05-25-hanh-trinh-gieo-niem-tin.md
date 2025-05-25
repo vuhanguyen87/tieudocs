@@ -1,7 +1,7 @@
 ---
 title: HÀNH TRÌNH GIEO NIỀM TIN
-role: DIRECTOR
-description: 2MINH PICTURES
+role: Director
+description: "PH: 2Minh Pictures"
 category: Documentary
 images:
   - media/sen_1.16.1.jpg
