@@ -1,5 +1,5 @@
 ---
-title: "Konox Knife Sets "
+title: KONOX KNIFE SETS
 role: Director
 description: "PH: Min Pictures"
 category: Product Videos
