@@ -47,9 +47,9 @@
       
       async function fetchConfig(){
         try {
-          config.value.projects = await fetch('_data/projects.json').then(res => res.json()).then(json => json.data)
+          config.value.projects = await fetch('./_data/projects.json').then(res => res.json()).then(json => json.data)
           
-          config.value.site = await fetch('_data/site.json').then(res => res.json())
+          config.value.site = await fetch('./_data/site.json').then(res => res.json())
         } catch (error) {
           console.error('Error fetching config:', error)
         } finally {
