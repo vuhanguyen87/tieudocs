@@ -8,6 +8,6 @@
   "deterministicOrder": false,
   "dist": "docs/_data/projects.json",
   "display": false,  
-  "server": true,
+  "server": false,
   "port": 3215,
 }
