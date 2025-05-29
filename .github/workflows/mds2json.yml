@@ -15,7 +15,7 @@ jobs:
     - name: Markdown to JSON
       uses: ClydeDz/markdown-to-json@v0.1.0
       with:
-        settings-json-file: docs/_data/mds2json.json
+        settings-json-file: docs/data/mds2json.json
 
     - name: Push changes
       run: |
