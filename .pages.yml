@@ -4,7 +4,7 @@ media:
 content:
   - name: projects
     label: Projects
-    path: docs/_projects
+    path: docs/data/projects
     type: collection
     fields:
       - name: title
@@ -39,7 +39,7 @@ content:
         type: text
   - name: blogs
     label: Blogs
-    path: docs/_blogs
+    path: docs/data/blogs
     type: collection
     fields:
       - name: title
@@ -55,7 +55,7 @@ content:
         type: rich-text
   - name: site
     label: Site settings
-    path: docs/_data/site.json
+    path: docs/data/site.json
     type: file
     fields:
       - name: title
