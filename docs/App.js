@@ -25,8 +25,8 @@
             'slug' : 'product-videos'
           },
           {
-            'title': 'After Movie',
-            'slug' : 'after-movie'
+            'title': 'After Movies',
+            'slug' : 'after-movies'
           },
           {
             'title': 'Corporate Videos',
