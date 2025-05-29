@@ -2,7 +2,7 @@
 title: KONOX KNIFE SETS
 role: Director
 description: "PH: Min Pictures"
-category: Product Videos
+category: iTVC
 images:
   - media/vlcsnap-2025-05-26-12h25m19s306.jpg
   - media/vlcsnap-2025-05-26-12h26m13s620.jpg
