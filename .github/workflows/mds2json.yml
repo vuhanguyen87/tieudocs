@@ -17,8 +17,8 @@ jobs:
       with:
         settings-json-file: docs/_data/mds2json.json
 
-    - name: Upload artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: markdown-json-files
-        path: ${{github.workspace}}/docs/_data/projects.json
+    - name: Push changes
+      run: |
+        git add docs/_data/projects.json
+        git commit -m "Update projects.json"
+        git push
