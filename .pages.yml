@@ -24,7 +24,7 @@ content:
         label: Category
         type: select
         options:
-          values: [ Documentary, Product Videos, After Movies, Corporate Videos, Others ]
+          values: [ Documentary, iTVC, After Movies, Corporate Videos, Others ]
       - name: images
         label: Images
         type: image
