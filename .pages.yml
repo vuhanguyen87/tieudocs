@@ -6,6 +6,14 @@ content:
     label: Projects
     path: docs/_projects
     type: collection
+    view:
+      fields: [ title ]
+      primary: title
+      sort: [ title ]
+      default:
+        search: ''
+        sort: title
+        order: desc
     fields:
       - name: title
         label: Title
