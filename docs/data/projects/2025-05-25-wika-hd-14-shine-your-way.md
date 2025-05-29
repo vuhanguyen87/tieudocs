@@ -2,7 +2,7 @@
 title: WIKA HD 14 - SHINE YOUR WAY
 role: DoP
 description: "PH: Min Pictures"
-category: Product Videos
+category: iTVC
 images:
   - media/vlcsnap-2025-05-25-23h36m43s878.jpg
   - media/vlcsnap-2025-05-25-23h39m22s058.jpg
