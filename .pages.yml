@@ -24,7 +24,7 @@ content:
         label: Category
         type: select
         options:
-          values: [ Documentary, Product Videos, After Movies, Coorperate Videos, Others ]
+          values: [ Documentary, Product Videos, After Movies, Corperate Videos, Others ]
       - name: images
         label: Images
         type: image
