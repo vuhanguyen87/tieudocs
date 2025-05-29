@@ -18,7 +18,7 @@ jobs:
         settings-json-file: docs/_data/mds2json.json
 
     - name: Upload artifact
-      uses: actions/download-artifact@v4
+      uses: actions/upload-artifact@v4
       with:
         name: markdown-json-files
-        path: docs/_data/projects.json
+        path: ${{github.workspace}}/docs/_data/projects.json
