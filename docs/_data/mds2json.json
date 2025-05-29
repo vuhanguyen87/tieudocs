@@ -1,0 +1,13 @@
+{
+  "name": "Tieu Docs API",
+  "cwd": "./",
+  "src": "docs/_projects/",
+  "filePattern": "**/*.md",
+  "ignore": "*(icon|input)*",  
+  "metadata": true,  
+  "deterministicOrder": false,
+  "dist": "docs/_data/projects.json",
+  "display": false,  
+  "server": true,
+  "port": 3215,
+}
