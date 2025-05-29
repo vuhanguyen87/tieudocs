@@ -22,5 +22,5 @@ jobs:
         git config --global user.name 'Bot'
         git config --global user.email '<>'
         git add .
-        git commit -m "update converted files"
+        git commit -m "Update converted MD files"
         git push
