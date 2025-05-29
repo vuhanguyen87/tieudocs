@@ -2,7 +2,7 @@
 title: TORA TITAN
 role: DoP
 description: "PH: Min Pictures"
-category: Product Videos
+category: iTVC
 images:
   - media/vlcsnap-2025-05-26-12h28m13s563.jpg
   - media/vlcsnap-2025-05-26-12h28m24s615.jpg
