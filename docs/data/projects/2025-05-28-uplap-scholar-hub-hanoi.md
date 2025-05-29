@@ -1,7 +1,7 @@
 ---
 title: UP.LAP SCHOLAR HUB HANOI
 role: Director
-description: "PH: 2Minh Pictures"
+description: "PH: 2Minh Picturess"
 category: Corperate Videos
 images:
   - media/vlcsnap-2025-05-28-11h05m21s601.jpg
