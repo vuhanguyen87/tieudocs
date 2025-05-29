@@ -16,3 +16,9 @@ jobs:
       uses: ClydeDz/markdown-to-json@v0.1.0
       with:
         settings-json-file: docs/_data/mds2json.json
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: markdown-json-files
+        path: docs/_data/
