@@ -2,7 +2,7 @@
 title: CÚC PHƯƠNG CORPORATION | 20 NĂM THÀNH LẬP VÀ PHÁT TRIỂN
 role: Director
 description: "PH: Min Pictures"
-category: Corperate Videos
+category: Corporate Videos
 images:
   - media/vlcsnap-2025-05-27-17h20m35s216.jpg
   - media/vlcsnap-2025-05-27-17h25m56s076.jpg
