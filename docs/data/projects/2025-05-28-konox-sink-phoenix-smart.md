@@ -2,7 +2,7 @@
 title: KONOX SINK PHOENIX SMART
 role: Director
 description: "PH: Min Pictures"
-category: Product Videos
+category: iTVC
 images:
   - media/vlcsnap-2025-05-28-11h26m51s034.jpg
   - media/vlcsnap-2025-05-28-11h26m38s091.jpg
