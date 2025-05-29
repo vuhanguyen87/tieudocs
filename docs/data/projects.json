@@ -1,15 +1,15 @@
 {
   "app": {
-    "config": "docs/_data/mds2json.json",
+    "config": "docs/data/mds2json.json",
     "cwd": "./",
     "deterministicOrder": false,
     "display": true,
-    "dist": "docs/_data/projects.json",
+    "dist": "docs/data/projects.json",
     "filePattern": "**/*.md",
     "ignore": "",
     "port": 3001,
     "server": false,
-    "src": "docs/_projects/",
+    "src": "docs/data/projects/",
     "version": "1.6.1"
   },
   "data": [
@@ -372,7 +372,7 @@
       "contents": "",
       "title": "UP.LAP SCHOLAR HUB HANOI",
       "role": "Director",
-      "description": "PH: 2Minh Pictures",
+      "description": "PH: 2Minh Picturess",
       "category": "Corperate Videos",
       "images": [
         "media/vlcsnap-2025-05-28-11h05m21s601.jpg",
