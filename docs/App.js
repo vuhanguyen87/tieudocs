@@ -13,7 +13,32 @@
     },
     setup(){
       const loading = ref(true)
-      const config = ref(null)
+      const config = ref({
+        projects: [],
+        projectCats: [
+          {
+            'title': 'Documentary',
+            'slug' : 'documentary'
+          },
+          {
+            'title': 'Product Videos',
+            'slug' : 'product-videos'
+          },
+          {
+            'title': 'After Movie',
+            'slug' : 'after-movie'
+          },
+          {
+            'title': 'Corporate Videos',
+            'slug' : 'corporate-videos'
+          },
+          {
+            'title': 'Others',
+            'slug' : 'others'
+          }
+        ],
+        site: {}
+      })
       const currentRoute = ref({
         view: null,
         name: '',
@@ -22,65 +47,67 @@
       
       async function fetchConfig(){
         try {
-          const response = await fetch('config.json')
-          config.value = await response.json()
+          config.value.projects = await fetch('_data/projects.json').then(res => res.json()).then(json => json.data)
+          
+          config.value.site = await fetch('_data/site.json').then(res => res.json())
         } catch (error) {
           console.error('Error fetching config:', error)
+        } finally {
+          loading.value = false
         }
-
-        loading.value = false
       }
 
+      function getProjectsByCategory(categorySlug) {
+        const category = config.value.projectCats.find(cat => cat.slug === categorySlug)
+        return config.value.projects.filter(project => project.category === category.title)
+      }
+
+      function getProjectBySlug(slug) {
+        return config.value.projects.find(project => project.id === slug)
+      }
       
       function route(path) {
-        const routeIndex = path.split('/')[1] || 'home'
-        const routeParam = path.split('/')[2]
+        const segments = path.replace('#/', '').split('/')
+        const routeIndex = segments[0] || 'home'
+        const routeParam = segments[1]
 
         switch (routeIndex) {
-          case 'home':
-            currentRoute.value = {
-              view: markRaw(Projects),
-              name: 'home',
-              data: {
-                projects: config.value.projects.filter((project) => {
-                  return project.category == 'documentary'
-                }),
-                category: 'documentary'
-              }
-            }
-            break
+          case 'home':            
           case 'projects':
+            const categorySlug = routeIndex == 'home' ? 'documentary' : routeParam
+
             currentRoute.value = {
               view: markRaw(Projects),
-              name: 'projects',
+              name: routeIndex,
               data: {
-                projects: config.value.projects.filter((project) => {
-                  return project.category == routeParam
-                }),
-                category: routeParam
+                projects: getProjectsByCategory(categorySlug),
+                allCategories: config.value.projectCats
               }
             }
+
             break
           case 'project':
+            const project = getProjectBySlug(routeParam)
             currentRoute.value = {
               view: markRaw(Project),
               name: 'project',
-              data: config.value.projects.filter((project) => {
-                return project.slug == routeParam
-              })[0],
+              data: project
             }
-
+            break
+          default:
+            // Handle unknown routes by redirecting to home
+            window.location.hash = '#/'
             break
         }        
       }
 
-      window.addEventListener('hashchange', () => {
+      function handleHashChange() {
         route(window.location.hash)
-      })
-      
+      }
 
       onMounted(async () => {
         await fetchConfig()
+        window.addEventListener('hashchange', handleHashChange)
         route(window.location.hash)
       })
 

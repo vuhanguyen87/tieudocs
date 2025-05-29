@@ -10,7 +10,7 @@ export const Project = {
     template: `
     <section class="text-center">
         <h1 class="text-2xl font-bold">{{ project.title }}</h1>
-        <p class="text-2xl">{{ project.roles }}</p>
+        <p class="text-2xl">{{ project.role }}</p>
         <p class="">{{ project.description }}</p>
         <div class="mt-8 relative w-full" style="padding-bottom: 56.25%;">
             <iframe 
@@ -23,7 +23,7 @@ export const Project = {
         </div>
         <div class="mt-4 md:mt-8 mx-4 md:mx-0 flex space-x-6">
             <div v-for="image of project.images" class="">
-                <img :src="image.url" class="w-[180px] aspect-square object-cover border-2 border-white" />
+                <img :src="image" class="w-[180px] aspect-square object-cover border-2 border-white" />
             </div>
         </div>
     </section>`

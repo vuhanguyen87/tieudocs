@@ -5,7 +5,8 @@
     "tailwindcss": "^3.4.14"
   },
   "scripts": {
-    "dev": "tailwindcss -i ./tailwind.css -o ./docs/assets/style.css --watch"
+    "dev": "tailwindcss -i ./tailwind.css -o ./docs/assets/style.css --watch",
+    "serve": "dev-server docs --port 3000"
   },
   "dependencies": {
     "dev-server": "^0.2.0"

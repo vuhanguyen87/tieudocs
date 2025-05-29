@@ -8,7 +8,7 @@ export const ProjectCard = {
 
         // Replace toRefs with computed to maintain reactivity
         const images = computed(() => props.project.images || []);
-
+        
         const currentSliderIndex = ref(0);
         
         let intervalId;
@@ -50,7 +50,7 @@ export const ProjectCard = {
 
         // startSlider();
 
-        const projectPageUrl = computed(() => '#/project/' + props.project.slug)
+        const projectPageUrl = computed(() => '#/project/' + props.project.id)
 
         onUnmounted(() => {
             clearInterval(intervalId);
@@ -90,8 +90,7 @@ export const ProjectCard = {
                         class=""
                         v-show="index === currentSliderIndex" >
                         <img 
-                            :src="image.url" 
-                            :alt="image.title" 
+                            :src="image" 
                             class="absolute w-full h-full object-cover group-hover:opacity-50 duration-500" />
                     </div>
                 </transition>

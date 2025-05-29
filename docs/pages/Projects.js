@@ -1,5 +1,6 @@
-import { ref, computed } from 'vue'
+import { ref, computed, inject } from 'vue'
 import { ProjectCard } from '../components/ProjectCard.js'
+
 
 export const Projects = {
     components: {
@@ -7,41 +8,37 @@ export const Projects = {
     },
     props: { data: { default: {
         projects: [],
-        category: ""
+        allCategories: []
     } } },
     setup(props){
         // Use computed to maintain reactivity
         const projects = computed(() => props.data.projects)
-        const selectedCategory = computed(() => props.data.category)
-        const categories = {
-            'documentary': 'Documentary',
-            'product-videos': 'Product Videos',
-            'after-movie': 'After Movie',
-            'corporate-videos': 'Corporate Videos',
-            'others': 'Others',
-        }
+        const allCategories = computed(() => props.data.allCategories)
 
-        return { projects, selectedCategory, categories }
+        const selectedCatTitle = computed(() => {
+            return projects.length > 0 ? projects[0].category : null
+        })
+
+        return { projects, selectedCatTitle, allCategories }
     },
     template: `
     <section>
         <ul class="grid grid-cols-2 md:grid-cols-none md:flex justify-center mx-3 md:space-x-4">
-            <template v-for="category, index in categories" :key="index">
-                <li 
-                    v-if="index == 'documentary'"
+            <template v-for="category in allCategories" :key="category.slug">
+                <li v-if="category.slug == 'documentary'"
                     class="before:content-['|'] md:before:content-none">
-                    <a 
-                        class="py-2 hover:text-lg hover:font-bold"
-                        :class="{ 'font-bold': selectedCategory == 'documentary' }"
+                    <a
+                        class="py-2 hover:font-bold"
+                        :class="{ 'font-bold': selectedCatTitle == category.title }"
                         href="#/"
-                        >{{ category }}</a>
+                        >{{ category.title }}</a>
                 </li>
                 <li v-else class="before:content-['|']">
                     <a 
-                        class="py-2 md:pl-3 hover:text-lg hover:font-bold" 
-                        :href="'#/projects/' + index"
-                        :class="{ 'font-bold': selectedCategory == index }"
-                        >{{ category }}</a>
+                        class="py-2 md:pl-3 hover:font-bold" 
+                        :href="'#/projects/' + category.slug"
+                        :class="{ 'font-bold': selectedCatTitle == category.title }"
+                        >{{ category.title }}</a>
                 </li>
             </template>
         </ul>
