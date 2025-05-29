@@ -1,0 +1,388 @@
+{
+  "app": {
+    "config": "docs/_data/mds2json.json",
+    "cwd": "./",
+    "deterministicOrder": false,
+    "display": true,
+    "dist": "docs/_data/projects.json",
+    "filePattern": "**/*.md",
+    "ignore": "",
+    "port": 3001,
+    "server": false,
+    "src": "docs/_projects/",
+    "version": "1.6.1"
+  },
+  "data": [
+    {
+      "id": "2025-05-20-so-1",
+      "contents": "",
+      "title": "\"ĐAM MÊ\" - DLS inc",
+      "role": "DoP",
+      "description": "PH: Dream Forest Pictures",
+      "category": "Documentary",
+      "images": [
+        "media/DLS_Master-0003.png",
+        "media/DLS_Master-0006.png",
+        "media/DLS_Master-0007.png",
+        "media/DLS_Master-0005.png",
+        "media/DLS_Master-0004.png"
+      ],
+      "video": "https://youtu.be/Le1fL3YySks",
+      "excerpt": ""
+    },
+    {
+      "id": "2025-05-25-hanh-trinh-gieo-niem-tin",
+      "contents": "",
+      "title": "HÀNH TRÌNH GIEO NIỀM TIN",
+      "role": "Director",
+      "description": "PH: 2Minh Pictures",
+      "category": "Documentary",
+      "images": [
+        "media/sen_1.16.1.jpg",
+        "media/vlcsnap-2025-05-25-23h15m27s077.jpg",
+        "media/Tai lieu Sen day 2_00_02_19_14.jpg",
+        "media/Sen _1.21.1.jpg"
+      ],
+      "video": "https://youtu.be/A51P-ZQsTSs",
+      "excerpt": ""
+    },
+    {
+      "id": "2025-05-25-join-the-protherhood-with-isuzu-vietnam",
+      "contents": "",
+      "title": "JOIN THE \"PROTHERHOOD\" WITH ISUZU VIETNAM",
+      "role": "1st AD",
+      "description": "PH: Trà đá Cinema",
+      "category": "Product Videos",
+      "images": [
+        "media/vlcsnap-2025-05-25-23h09m49s013.jpg",
+        "media/vlcsnap-2025-05-25-23h10m06s283.jpg",
+        "media/vlcsnap-2025-05-25-23h10m34s839.jpg",
+        "media/vlcsnap-2025-05-25-23h12m25s546.jpg"
+      ],
+      "video": "https://youtu.be/_fjPkyAX4LE",
+      "excerpt": ""
+    },
+    {
+      "id": "2025-05-25-wika-hd-14-shine-your-way",
+      "contents": "",
+      "title": "WIKA HD 14 - SHINE YOUR WAY",
+      "role": "DoP",
+      "description": "PH: Min Pictures",
+      "category": "Product Videos",
+      "images": [
+        "media/vlcsnap-2025-05-25-23h36m43s878.jpg",
+        "media/vlcsnap-2025-05-25-23h39m22s058.jpg",
+        "media/vlcsnap-2025-05-25-23h42m10s234.jpg",
+        "media/vlcsnap-2025-05-25-23h39m10s432.jpg",
+        "media/vlcsnap-2025-05-25-23h37m13s750.jpg"
+      ],
+      "video": "https://youtu.be/vkbvZl8Urf0",
+      "excerpt": ""
+    },
+    {
+      "id": "2025-05-26-interloka-van-lang-universiting-rebrand",
+      "contents": "",
+      "title": "INTERLOKA - VAN LANG UNIVERSITING REBRAND",
+      "role": "Director",
+      "description": "PH: Min Pictures",
+      "category": "Coorperate Videos",
+      "images": [
+        "media/vlcsnap-2025-05-26-12h42m34s262.jpg",
+        "media/vlcsnap-2025-05-26-12h43m02s697.jpg",
+        "media/vlcsnap-2025-05-26-12h44m27s791.jpg",
+        "media/vlcsnap-2025-05-26-12h44m07s645.jpg"
+      ],
+      "video": "https://youtu.be/xRJ2xmEFmEs",
+      "excerpt": ""
+    },
+    {
+      "id": "2025-05-26-konox-knife-sets",
+      "contents": "",
+      "title": "KONOX KNIFE SETS",
+      "role": "Director",
+      "description": "PH: Min Pictures",
+      "category": "Product Videos",
+      "images": [
+        "media/vlcsnap-2025-05-26-12h25m19s306.jpg",
+        "media/vlcsnap-2025-05-26-12h26m13s620.jpg",
+        "media/vlcsnap-2025-05-26-12h26m04s614.jpg",
+        "media/vlcsnap-2025-05-26-12h25m44s396.jpg",
+        "media/vlcsnap-2025-05-26-12h25m52s852.jpg"
+      ],
+      "video": "https://youtu.be/NEpKrKsTO7Y",
+      "excerpt": ""
+    },
+    {
+      "id": "2025-05-26-tora-titan",
+      "contents": "",
+      "title": "TORA TITAN",
+      "role": "DoP",
+      "description": "PH: Min Pictures",
+      "category": "Product Videos",
+      "images": [
+        "media/vlcsnap-2025-05-26-12h28m13s563.jpg",
+        "media/vlcsnap-2025-05-26-12h28m24s615.jpg",
+        "media/vlcsnap-2025-05-26-12h28m56s641.jpg"
+      ],
+      "video": "https://youtu.be/OE-gzaysb8M",
+      "excerpt": ""
+    },
+    {
+      "id": "2025-05-27-cuc-phuong-corporation-or-20-nam-thanh-lap-va-phat-trien",
+      "contents": "",
+      "title": "CÚC PHƯƠNG CORPORATION | 20 NĂM THÀNH LẬP VÀ PHÁT TRIỂN",
+      "role": "Director",
+      "description": "PH: Min Pictures",
+      "category": "Coorperate Videos",
+      "images": [
+        "media/vlcsnap-2025-05-27-17h20m35s216.jpg",
+        "media/vlcsnap-2025-05-27-17h25m56s076.jpg",
+        "media/vlcsnap-2025-05-27-17h26m59s039.jpg",
+        "media/vlcsnap-2025-05-27-17h28m25s320.jpg",
+        "media/vlcsnap-2025-05-27-17h23m00s300.jpg"
+      ],
+      "video": "https://youtu.be/gXMcGntsGL8",
+      "excerpt": ""
+    },
+    {
+      "id": "2025-05-27-dino-cup-2023-pushbike-competition",
+      "contents": "",
+      "title": "DINO CUP 2023 - PUSHBIKE COMPETITION",
+      "role": "CamOP - Editor",
+      "description": "PH: 2Minh Pictures",
+      "category": "After Movies",
+      "video": "https://youtu.be/SoI_vm0aMxE",
+      "excerpt": ""
+    },
+    {
+      "id": "2025-05-27-ford-firstaid-series-with-dr-hung-ngo-1",
+      "contents": "",
+      "title": "FORD FIRSTAID SERIES WITH DR HUNG NGO",
+      "role": "1st AD",
+      "description": "PH: Trà đá Cinema",
+      "category": "Others",
+      "images": [
+        "media/vlcsnap-2025-05-27-17h44m40s715-1.jpg",
+        "media/vlcsnap-2025-05-27-17h54m18s361.jpg",
+        "media/vlcsnap-2025-05-27-17h54m43s766.jpg",
+        "media/vlcsnap-2025-05-27-17h56m01s577.jpg",
+        "media/vlcsnap-2025-05-27-17h55m17s497.jpg"
+      ],
+      "video": "https://youtu.be/k2Wn2oKRT6k",
+      "excerpt": ""
+    },
+    {
+      "id": "2025-05-27-ford-firstaid-series-with-dr-hung-ngo",
+      "contents": "",
+      "title": "FORD FIRSTAID SERIES WITH DR HUNG NGO",
+      "role": "1st AD",
+      "description": "PH: Trà đá Cinema",
+      "category": "Others",
+      "images": [
+        "media/vlcsnap-2025-05-27-17h44m40s715.jpg",
+        "media/vlcsnap-2025-05-27-17h47m53s244-1.jpg",
+        "media/vlcsnap-2025-05-27-17h45m50s909-1.jpg",
+        "media/vlcsnap-2025-05-27-17h46m02s818.jpg",
+        "media/vlcsnap-2025-05-27-17h46m43s077.jpg"
+      ],
+      "video": "https://youtu.be/GwsjcEt2B-g",
+      "excerpt": ""
+    },
+    {
+      "id": "2025-05-28-chuyen-tim-nha-batdongsancomvn-1",
+      "contents": "",
+      "title": "CHUYỆN TÌM NHÀ - batdongsan.com.vn",
+      "role": "Director",
+      "description": "PH: Dukik Film",
+      "category": "Product Videos",
+      "images": [
+        "media/vlcsnap-2025-05-28-11h41m36s330.jpg",
+        "media/vlcsnap-2025-05-28-11h43m16s645.jpg",
+        "media/vlcsnap-2025-05-28-11h43m29s207.jpg"
+      ],
+      "video": "https://youtu.be/Y6a2nMl_ncY",
+      "excerpt": ""
+    },
+    {
+      "id": "2025-05-28-chuyen-tim-nha-batdongsancomvn-2",
+      "contents": "",
+      "title": "CHUYỆN TÌM NHÀ - batdongsan.com.vn",
+      "role": "Director",
+      "description": "PH: Dukik Film",
+      "category": "Product Videos",
+      "images": [
+        "media/vlcsnap-2025-05-28-11h47m28s048.jpg",
+        "media/vlcsnap-2025-05-28-11h47m00s241.jpg",
+        "media/vlcsnap-2025-05-28-11h47m53s002.jpg"
+      ],
+      "video": "https://youtu.be/VyLiEo54EWM",
+      "excerpt": ""
+    },
+    {
+      "id": "2025-05-28-chuyen-tim-nha-batdongsancomvn",
+      "contents": "",
+      "title": "CHUYỆN TÌM NHÀ - batdongsan.com.vn ",
+      "role": "Director",
+      "description": "PH: Dukik Film",
+      "category": "Product Videos",
+      "images": [
+        "media/vlcsnap-2025-05-28-11h38m15s084.jpg",
+        "media/vlcsnap-2025-05-28-11h37m52s818.jpg",
+        "media/vlcsnap-2025-05-28-11h39m06s025.jpg",
+        "media/vlcsnap-2025-05-28-11h37m20s448.jpg"
+      ],
+      "video": "https://youtu.be/-unUTj40Haw",
+      "excerpt": ""
+    },
+    {
+      "id": "2025-05-28-culinary-lifeskills-programs-fundraising-event",
+      "contents": "",
+      "title": "CULINARY LIFESKILLS PROGRAM'S FUNDRAISING EVENT",
+      "role": "CamOP - Editor",
+      "description": "PH: 2Minh Pictures",
+      "category": "After Movies",
+      "images": [
+        "media/vlcsnap-2025-05-28-11h21m27s484.jpg",
+        "media/vlcsnap-2025-05-28-11h22m29s029.jpg",
+        "media/vlcsnap-2025-05-28-11h23m10s619.jpg"
+      ],
+      "video": "https://youtu.be/hlAnCJEJWsM",
+      "excerpt": ""
+    },
+    {
+      "id": "2025-05-28-konox-sink-phoenix-smart-1",
+      "contents": "",
+      "title": "KONOX SINK PHOENIX SMART",
+      "role": "Director",
+      "description": "PH: Min Pictures",
+      "category": "Product Videos",
+      "images": [
+        "media/vlcsnap-2025-05-28-11h29m27s826.jpg",
+        "media/vlcsnap-2025-05-28-11h29m55s038.jpg",
+        "media/vlcsnap-2025-05-28-11h30m03s920.jpg"
+      ],
+      "video": "https://youtu.be/isAOOqC7QHY",
+      "excerpt": ""
+    },
+    {
+      "id": "2025-05-28-konox-sink-phoenix-smart",
+      "contents": "",
+      "title": "KONOX SINK PHOENIX SMART",
+      "role": "Director",
+      "description": "PH: Min Pictures",
+      "category": "Product Videos",
+      "images": [
+        "media/vlcsnap-2025-05-28-11h26m51s034.jpg",
+        "media/vlcsnap-2025-05-28-11h26m38s091.jpg",
+        "media/vlcsnap-2025-05-28-11h26m06s742.jpg",
+        "media/vlcsnap-2025-05-28-11h24m33s872.jpg"
+      ],
+      "video": "https://youtu.be/iEjQKJUZcq4",
+      "excerpt": ""
+    },
+    {
+      "id": "2025-05-28-minh-quoc-and-hoai-thus-engagement-ceremony",
+      "contents": "",
+      "title": "MINH QUOC & HOAI THU'S ENGAGEMENT CEREMONY",
+      "role": "DoP",
+      "description": "PH: 2Minh Pictures",
+      "category": "Others",
+      "images": [
+        "media/vlcsnap-2025-05-28-16h05m18s866.jpg",
+        "media/vlcsnap-2025-05-28-16h06m14s964.jpg",
+        "media/vlcsnap-2025-05-28-16h05m56s953.jpg",
+        "media/vlcsnap-2025-05-28-16h08m24s226.jpg",
+        "media/vlcsnap-2025-05-28-16h06m45s359.jpg"
+      ],
+      "video": "https://youtu.be/DudFhk1gFiQ",
+      "excerpt": ""
+    },
+    {
+      "id": "2025-05-28-monsoon-music-festival-2017",
+      "contents": "",
+      "title": "MONSOON MUSIC FESTIVAL 2017",
+      "role": "CamOP",
+      "description": "PH: Tana Visual",
+      "category": "After Movies",
+      "video": "https://youtu.be/R5jYqEJIVJM",
+      "excerpt": ""
+    },
+    {
+      "id": "2025-05-28-mv-bang-khuang-lai-chau-nhac-si-djo-bao-ca-si-djong-hung",
+      "contents": "",
+      "title": "MV BÂNG KHUÂNG LAI CHÂU - NHẠC SĨ ĐỖ BẢO - CA SĨ ĐÔNG HÙNG",
+      "role": "1st AD",
+      "description": "PH: Dream Forest Pictures",
+      "category": "Others",
+      "images": [
+        "media/vlcsnap-2025-05-28-15h55m27s049.jpg",
+        "media/493277899_10213623557781004_5453584795987174474_n.jpg",
+        "media/493446024_10213623559741053_4518640333726093025_n.jpg",
+        "media/494151243_10213623560301067_2368233709948876554_n.jpg",
+        "media/493931900_10213623559341043_7567957917848882777_n.jpg"
+      ],
+      "video": "https://youtu.be/PLq4ZwB7L8s?si=bNDUMGU7Mu0HR3DW",
+      "excerpt": ""
+    },
+    {
+      "id": "2025-05-28-nho-gempark-hai-phong",
+      "contents": "",
+      "title": "N.H.O - GEMPARK HAI PHONG",
+      "role": "DoP",
+      "description": "PH: Dream Forest Pictures",
+      "category": "Others",
+      "images": [
+        "media/vlcsnap-2025-05-28-15h45m13s283.jpg",
+        "media/vlcsnap-2025-05-28-15h45m33s091.jpg",
+        "media/vlcsnap-2025-05-28-15h46m05s017.jpg",
+        "media/vlcsnap-2025-05-28-15h47m06s138.jpg",
+        "media/vlcsnap-2025-05-28-15h46m18s556.jpg"
+      ],
+      "video": "https://youtu.be/TJ9SsQ9C1uc",
+      "excerpt": ""
+    },
+    {
+      "id": "2025-05-28-streetshow-2-monsoon-music-festival-2017",
+      "contents": "",
+      "title": "STREETSHOW 2 - MONSOON MUSIC FESTIVAL 2017",
+      "role": "CamOP",
+      "description": "PH: Tana Visual",
+      "category": "After Movies",
+      "video": "https://youtu.be/dW_TqYixUZ8",
+      "excerpt": ""
+    },
+    {
+      "id": "2025-05-28-toyota-drive-4-smiles",
+      "contents": "",
+      "title": "TOYOTA DRIVE 4 SMILES",
+      "role": "Director",
+      "description": "PH: Min Pictures",
+      "category": "After Movies",
+      "images": [
+        "media/488659001_1215932946721400_6448294838431393850_n.jpg",
+        "media/488845621_1215931203388241_2176528881719163591_n.jpg",
+        "media/489228717_1215932270054801_3741671573003330185_n.jpg",
+        "media/489538257_1215930960054932_534982124794653166_n.jpg"
+      ],
+      "video": "https://youtu.be/zeDFCPJ6VGU",
+      "excerpt": ""
+    },
+    {
+      "id": "2025-05-28-uplap-scholar-hub-hanoi",
+      "contents": "",
+      "title": "UP.LAP SCHOLAR HUB HANOI",
+      "role": "Director",
+      "description": "PH: 2Minh Pictures",
+      "category": "Coorperate Videos",
+      "images": [
+        "media/vlcsnap-2025-05-28-11h05m21s601.jpg",
+        "media/vlcsnap-2025-05-28-11h06m56s519.jpg",
+        "media/vlcsnap-2025-05-28-11h07m26s507.jpg",
+        "media/vlcsnap-2025-05-28-11h07m16s511.jpg",
+        "media/vlcsnap-2025-05-28-11h12m07s361.jpg"
+      ],
+      "video": "https://youtu.be/4nGgj3B62HE",
+      "excerpt": ""
+    }
+  ]
+}
