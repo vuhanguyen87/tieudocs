@@ -1,4 +1,18 @@
-- name: Markdown to JSON
-  uses: ClydeDz/markdown-to-json@v0.1.0
-  with:
-    settings-json-file: docs/_data/mds2json.json
+name: Convert Markdown Files to JSON
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  markdown-to-json:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Markdown to JSON
+      uses: ClydeDz/markdown-to-json@v0.1.0
+      with:
+        settings-json-file: docs/_data/mds2json.json
