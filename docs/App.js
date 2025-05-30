@@ -21,8 +21,8 @@
             'slug' : 'documentary'
           },
           {
-            'title': 'Product Videos',
-            'slug' : 'product-videos'
+            'title': 'iTVC',
+            'slug' : 'itvc'
           },
           {
             'title': 'After Movies',
