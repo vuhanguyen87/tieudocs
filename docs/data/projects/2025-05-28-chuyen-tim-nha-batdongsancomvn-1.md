@@ -2,7 +2,7 @@
 title: CHUYỆN TÌM NHÀ - batdongsan.com.vn
 role: Director
 description: "PH: Dukik Film"
-category: iTVC
+category: Documentary
 images:
   - media/vlcsnap-2025-05-28-11h41m36s330.jpg
   - media/vlcsnap-2025-05-28-11h43m16s645.jpg
