@@ -27,7 +27,7 @@ export const Projects = {
     },
     template: `
     <section>
-        <ul class="grid grid-cols-2 md:grid-cols-none md:flex justify-center mx-3 md:space-x-4">
+        <ul class="grid grid-cols-2 md:grid-cols-none md:flex justify-center items-center mx-3 md:space-x-4">
             <template v-for="(category, index) in allCategories" :key="index">
                 <li 
                     class="before:content-['|']"

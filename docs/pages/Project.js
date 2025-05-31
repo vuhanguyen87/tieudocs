@@ -1,11 +1,12 @@
 import { computed } from 'vue'
+import { imgURL } from '../composable/multiSizeImgs.js'
 
 export const Project = {
     props: { data: { default: null }},
     setup(props){
         const project = computed(() => props.data)
         const ytEmbedUrl = computed(() => 'https://www.youtube.com/embed/' + project.value.video.split('/').slice(-1)[0])
-        return { project, ytEmbedUrl }
+        return { project, ytEmbedUrl, imgURL }
     },
     template: `
     <section class="text-center">
@@ -23,7 +24,7 @@ export const Project = {
         </div>
         <div class="mt-4 md:mt-8 mx-4 md:mx-0 flex space-x-6">
             <div v-for="image of project.images" class="">
-                <img :src="image" class="w-[180px] aspect-square object-cover border-2 border-white" />
+                <img :src="imgURL(image)" class="w-[180px] aspect-square object-cover border-2 border-white" />
             </div>
         </div>
     </section>`

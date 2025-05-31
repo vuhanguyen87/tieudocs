@@ -1,4 +1,5 @@
 import { ref, computed, toRefs, onUnmounted } from 'vue';
+import { imgURL } from '../composable/multiSizeImgs.js'
 
 export const ProjectCard = {
     props: {
@@ -61,7 +62,8 @@ export const ProjectCard = {
             projectPageUrl,
             stopSlider,
             startSlider,
-            currentSliderIndex }
+            currentSliderIndex,
+            imgURL }
     },
     template: `
     <a 
@@ -90,7 +92,7 @@ export const ProjectCard = {
                         class=""
                         v-show="index === currentSliderIndex" >
                         <img 
-                            :src="image" 
+                            :src="imgURL(image)" 
                             class="absolute w-full h-full object-cover group-hover:opacity-50 duration-500" />
                     </div>
                 </transition>
@@ -98,7 +100,7 @@ export const ProjectCard = {
         </div>                    
         <div class="mt-4 mx-3 md:mx-0 text-center md:text-left">
             <h3 class="text-2xl font-medium">{{ project.title }}</h3>
-            <p class="mt-3 text-xl">{{ project.roles }}</p>
+            <p class="mt-3 text-xl">{{ project.role }}</p>
             <p class="mt-1 mb-12">{{ project.description }}</p>
         </div>
     </a>`
