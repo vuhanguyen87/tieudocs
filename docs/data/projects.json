@@ -54,8 +54,8 @@
       "description": "PH: Trà đá Cinema",
       "category": "iTVC",
       "images": [
-        "media/vlcsnap-2025-05-25-23h09m49s013.jpg",
         "media/vlcsnap-2025-05-25-23h10m06s283.jpg",
+        "media/vlcsnap-2025-05-25-23h09m49s013.jpg",
         "media/vlcsnap-2025-05-25-23h10m34s839.jpg",
         "media/vlcsnap-2025-05-25-23h12m25s546.jpg"
       ],
@@ -151,6 +151,9 @@
       "role": "CamOP - Editor",
       "description": "PH: 2Minh Pictures",
       "category": "After Movies",
+      "images": [
+        "media/1ccddbfe-c144-4da8-a503-19fcd4b555b0.jpg"
+      ],
       "video": "https://youtu.be/SoI_vm0aMxE",
       "excerpt": ""
     },
@@ -162,11 +165,11 @@
       "description": "PH: Trà đá Cinema",
       "category": "Others",
       "images": [
-        "media/vlcsnap-2025-05-27-17h44m40s715-1.jpg",
-        "media/vlcsnap-2025-05-27-17h54m18s361.jpg",
         "media/vlcsnap-2025-05-27-17h54m43s766.jpg",
+        "media/vlcsnap-2025-05-27-17h54m18s361.jpg",
         "media/vlcsnap-2025-05-27-17h56m01s577.jpg",
-        "media/vlcsnap-2025-05-27-17h55m17s497.jpg"
+        "media/vlcsnap-2025-05-27-17h55m17s497.jpg",
+        "media/vlcsnap-2025-05-27-17h44m40s715-1.jpg"
       ],
       "video": "https://youtu.be/k2Wn2oKRT6k",
       "excerpt": ""
@@ -194,7 +197,7 @@
       "title": "CHUYỆN TÌM NHÀ - batdongsan.com.vn",
       "role": "Director",
       "description": "PH: Dukik Film",
-      "category": "iTVC",
+      "category": "Documentary",
       "images": [
         "media/vlcsnap-2025-05-28-11h41m36s330.jpg",
         "media/vlcsnap-2025-05-28-11h43m16s645.jpg",
@@ -209,7 +212,7 @@
       "title": "CHUYỆN TÌM NHÀ - batdongsan.com.vn",
       "role": "Director",
       "description": "PH: Dukik Film",
-      "category": "iTVC",
+      "category": "Documentary",
       "images": [
         "media/vlcsnap-2025-05-28-11h47m28s048.jpg",
         "media/vlcsnap-2025-05-28-11h47m00s241.jpg",
@@ -224,7 +227,7 @@
       "title": "CHUYỆN TÌM NHÀ - batdongsan.com.vn ",
       "role": "Director",
       "description": "PH: Dukik Film",
-      "category": "iTVC",
+      "category": "Documentary",
       "images": [
         "media/vlcsnap-2025-05-28-11h38m15s084.jpg",
         "media/vlcsnap-2025-05-28-11h37m52s818.jpg",
@@ -288,8 +291,8 @@
       "description": "PH: 2Minh Pictures",
       "category": "Others",
       "images": [
-        "media/vlcsnap-2025-05-28-16h05m18s866.jpg",
         "media/vlcsnap-2025-05-28-16h06m14s964.jpg",
+        "media/vlcsnap-2025-05-28-16h05m18s866.jpg",
         "media/vlcsnap-2025-05-28-16h05m56s953.jpg",
         "media/vlcsnap-2025-05-28-16h08m24s226.jpg",
         "media/vlcsnap-2025-05-28-16h06m45s359.jpg"
@@ -304,6 +307,9 @@
       "role": "CamOP",
       "description": "PH: Tana Visual",
       "category": "After Movies",
+      "images": [
+        "media/vlcsnap-2025-05-28-11h59m56s681.jpg"
+      ],
       "video": "https://youtu.be/R5jYqEJIVJM",
       "excerpt": ""
     },
@@ -339,16 +345,6 @@
         "media/vlcsnap-2025-05-28-15h46m18s556.jpg"
       ],
       "video": "https://youtu.be/TJ9SsQ9C1uc",
-      "excerpt": ""
-    },
-    {
-      "id": "2025-05-28-streetshow-2-monsoon-music-festival-2017",
-      "contents": "",
-      "title": "STREETSHOW 2 - MONSOON MUSIC FESTIVAL 2017",
-      "role": "CamOP",
-      "description": "PH: Tana Visual",
-      "category": "After Movies",
-      "video": "https://youtu.be/dW_TqYixUZ8",
       "excerpt": ""
     },
     {

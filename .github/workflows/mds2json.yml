@@ -3,6 +3,9 @@ name: Convert Markdown Files to JSON
 on:
   push:
     branches: [ main ]
+    # Check markdown files pushed only
+    paths:
+      - '**.md'
 
 jobs:
   markdown-to-json:
