@@ -50,6 +50,7 @@ content:
       - name: photos
         label: Photos
         type: image
+        list: true
         options:
           multiple: true
           path: gallery
