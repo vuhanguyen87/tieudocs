@@ -42,7 +42,7 @@ content:
         type: number
         options:
           min: 1
-  - name: gallery
+  - name: xgallery
     label: Gallery
     path: docs/data/gallery.json
     type: file
@@ -53,6 +53,7 @@ content:
         list: true
         options:
           multiple: true
+          path: gallery
           extensions: [jpg, png]
   - name: blogs
     label: Blogs
