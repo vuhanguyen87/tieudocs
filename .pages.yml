@@ -53,10 +53,6 @@ content:
         list: true
         options:
           multiple: true
-          media:
-            input: docs/media/gallery
-            output: media/gallery
-          path: gallery
           extensions: [jpg, png]
   - name: blogs
     label: Blogs
