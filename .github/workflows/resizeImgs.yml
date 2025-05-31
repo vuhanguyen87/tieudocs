@@ -1,0 +1,37 @@
+name: Resize images
+
+on: 
+  push:
+      branches: [ main ]
+      # Check markdown files pushed only
+      paths:
+        - '**.jpg'
+        - '**.png'
+
+jobs:
+  build:
+    name: Github Action Image Resizing
+    runs-on: ubuntu-latest
+    steps:
+
+      - uses: actions/checkout@v4
+
+      - name: Resize Images
+        id: resize-images
+
+        # You can change the version as well
+        uses: gonzalonaveira/gh-image-resizing@master
+        with:
+          IMAGES_MAX_WIDTH: "1280"
+          IMAGES_QUALITY: "90"
+          IMAGES_FORMATS: "jpg, jpge, png" 
+          IMAGES_DIRECTORIES: "docs/media"
+          IMAGES_SUFFIX: "_md"
+
+      - name: Push changes
+        run: |
+          git config --global user.name 'Bot'
+          git config --global user.email '<>'
+          git add .
+          git commit -m "Update converted MD files"
+          git push
