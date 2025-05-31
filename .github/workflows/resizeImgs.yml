@@ -5,8 +5,9 @@ on:
       branches: [ main ]
       # Check if imgs, config files pushed only
       paths:
-        - '**.jpg'
-        - '**.png'
+        - 'docs/media/*.jpg'
+        - 'docs/media/*.jpeg'
+        - 'docs/media/*.png'
         - '**/resizeImgs.yml'
 
 jobs:
@@ -25,7 +26,7 @@ jobs:
         with:
           IMAGES_MAX_WIDTH: "1280"
           IMAGES_QUALITY: "85"
-          IMAGES_FORMATS: "jpg, jpge, png" 
+          IMAGES_FORMATS: "jpg, jpeg, png" 
           IMAGES_DIRECTORIES: "docs/media"
           IMAGES_SUFFIX: "_md"
 
