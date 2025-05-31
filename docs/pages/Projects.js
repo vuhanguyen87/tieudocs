@@ -33,7 +33,7 @@ export const Projects = {
                     class="before:content-['|']"
                     :class="{ 'md:before:content-none': index == 0 }">
                     <a
-                        class="py-2 hover:font-bold"
+                        class="py-2 hover:font-bold hover:text-xl"
                         :class="{ 'font-bold md:text-lg': selectedCatTitle == category.title }"
                         :href=" index == 0 ? '#/' : '#/projects/' + category.slug"
                         >{{ category.title }}</a>

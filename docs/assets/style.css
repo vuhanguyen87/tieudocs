@@ -732,11 +732,6 @@ video {
   line-height: 1.25rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -836,6 +831,11 @@ video {
 .before\:content-\[\'\|\'\]::before {
   --tw-content: '|';
   content: var(--tw-content);
+}
+
+.hover\:text-xl:hover {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .hover\:font-bold:hover {
