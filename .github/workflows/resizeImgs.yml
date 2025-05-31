@@ -3,10 +3,11 @@ name: Resize images
 on: 
   push:
       branches: [ main ]
-      # Check markdown files pushed only
+      # Check if imgs, config files pushed only
       paths:
         - '**.jpg'
         - '**.png'
+        - '**/resizeImgs.yml'
 
 jobs:
   build:
