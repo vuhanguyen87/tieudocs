@@ -100,7 +100,7 @@ export const ProjectCard = {
         </div>                    
         <div class="mt-4 mx-3 md:mx-0 text-center md:text-left">
             <h3 class="text-2xl font-medium">{{ project.title }}</h3>
-            <p class="mt-3 text-xl">{{ project.role }}</p>
+            <p class="mt-3">ROLE: {{ project.role }}</p>
             <p class="mt-1 mb-12">{{ project.description }}</p>
         </div>
     </a>`
