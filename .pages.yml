@@ -50,13 +50,6 @@ content:
       - name: photos
         label: Photos
         type: image
-        default: []
-        required: false
-        list: true
-        options:
-          multiple: true
-          path: gallery
-          extensions: [jpg, png]
   - name: blogs
     label: Blogs
     path: docs/data/blogs
