@@ -47,8 +47,8 @@ content:
     path: docs/data/gallery.json
     type: file
     fields:
-      - name: images
-        label: Images
+      - name: photos
+        label: Photos
         type: image
         list: true
         options:
