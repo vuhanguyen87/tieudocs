@@ -37,6 +37,11 @@ content:
       - name: video
         label: Video
         type: text
+      - name: order
+        label: Order
+        type: number
+        options:
+          min: 1
   - name: blogs
     label: Blogs
     path: docs/data/blogs
