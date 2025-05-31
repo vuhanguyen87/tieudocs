@@ -16,28 +16,26 @@ export const Projects = {
         const allCategories = computed(() => props.data.allCategories)
 
         const selectedCatTitle = computed(() => {
-            return projects.length > 0 ? projects[0].category : null
+            return projects.value.length > 0 ? projects.value[0].category : null
         })
 
-        return { projects, selectedCatTitle, allCategories }
+        const firstProjectCat = computed(() => {
+            return allCategories.value[0]
+        })
+
+        return { projects, selectedCatTitle, allCategories, firstProjectCat }
     },
     template: `
     <section>
         <ul class="grid grid-cols-2 md:grid-cols-none md:flex justify-center mx-3 md:space-x-4">
-            <template v-for="category in allCategories" :key="category.slug">
-                <li v-if="category.slug == 'documentary'"
-                    class="before:content-['|'] md:before:content-none">
+            <template v-for="(category, index) in allCategories" :key="index">
+                <li 
+                    class="before:content-['|']"
+                    :class="{ 'md:before:content-none': index == 0 }">
                     <a
                         class="py-2 hover:font-bold"
-                        :class="{ 'font-bold': selectedCatTitle == category.title }"
-                        href="#/"
-                        >{{ category.title }}</a>
-                </li>
-                <li v-else class="before:content-['|']">
-                    <a 
-                        class="py-2 md:pl-3 hover:font-bold" 
-                        :href="'#/projects/' + category.slug"
-                        :class="{ 'font-bold': selectedCatTitle == category.title }"
+                        :class="{ 'font-bold md:text-lg': selectedCatTitle == category.title }"
+                        :href=" index == 0 ? '#/' : '#/projects/' + category.slug"
                         >{{ category.title }}</a>
                 </li>
             </template>

@@ -17,20 +17,20 @@
         projects: [],
         projectCats: [
           {
-            'title': 'Documentary',
-            'slug' : 'documentary'
-          },
-          {
             'title': 'iTVC',
             'slug' : 'itvc'
           },
           {
-            'title': 'After Movies',
-            'slug' : 'after-movies'
+            'title': 'Documentary',
+            'slug' : 'documentary'
           },
           {
             'title': 'Corporate Videos',
             'slug' : 'corporate-videos'
+          },
+          {
+            'title': 'After Movies',
+            'slug' : 'after-movies'
           },
           {
             'title': 'Others',
@@ -74,7 +74,7 @@
         switch (routeIndex) {
           case 'home':            
           case 'projects':
-            const categorySlug = routeIndex == 'home' ? 'documentary' : routeParam
+            const categorySlug = routeIndex == 'home' ? config.value.projectCats[0].slug : routeParam
 
             currentRoute.value = {
               view: markRaw(Projects),
