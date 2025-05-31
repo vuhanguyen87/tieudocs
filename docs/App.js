@@ -59,7 +59,18 @@
 
       function getProjectsByCategory(categorySlug) {
         const category = config.value.projectCats.find(cat => cat.slug === categorySlug)
-        return config.value.projects.filter(project => project.category === category.title)
+        return config.value.projects
+          .filter(project => project.category === category.title)
+          .sort((a, b) => {
+            if (typeof a.order !== 'number') {
+              a.order = 9999
+            }
+            if (typeof b.order !== 'number') {
+              b.order = 9999
+            }
+
+            return a.order - b.order
+          })
       }
 
       function getProjectBySlug(slug) {
@@ -75,7 +86,7 @@
           case 'home':            
           case 'projects':
             const categorySlug = routeIndex == 'home' ? config.value.projectCats[0].slug : routeParam
-
+            
             currentRoute.value = {
               view: markRaw(Projects),
               name: routeIndex,
