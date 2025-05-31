@@ -148,6 +148,7 @@
         "media/vlcsnap-2025-05-27-17h23m00s300.jpg"
       ],
       "video": "https://youtu.be/gXMcGntsGL8",
+      "order": 2,
       "excerpt": ""
     },
     {
@@ -278,6 +279,7 @@
         "media/vlcsnap-2025-05-28-11h30m03s920.jpg"
       ],
       "video": "https://youtu.be/isAOOqC7QHY",
+      "order": 5,
       "excerpt": ""
     },
     {
@@ -294,6 +296,7 @@
         "media/vlcsnap-2025-05-28-11h24m33s872.jpg"
       ],
       "video": "https://youtu.be/iEjQKJUZcq4",
+      "order": 6,
       "excerpt": ""
     },
     {
@@ -396,6 +399,7 @@
         "media/vlcsnap-2025-05-28-11h12m07s361.jpg"
       ],
       "video": "https://youtu.be/4nGgj3B62HE",
+      "order": 3,
       "excerpt": ""
     }
   ]
