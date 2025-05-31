@@ -42,6 +42,17 @@ content:
         type: number
         options:
           min: 1
+  - name: gallery
+    label: Gallery
+    path: docs/data/gallery
+    type: file
+    fields:
+      - name: images
+        label: Images
+        type: image
+        list: true
+        options:
+          multiple: true
   - name: blogs
     label: Blogs
     path: docs/data/blogs
