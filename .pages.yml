@@ -52,8 +52,6 @@ content:
         type: image
         list: true
         options:
-          media:
-            input: docs/media/gallery
           multiple: true
   - name: blogs
     label: Blogs
