@@ -53,7 +53,7 @@ content:
         list: true
         options:
           multiple: true
-          path: docs/media/md
+          path: docs/media/gallery
           extensions: [jpg, png]
   - name: blogs
     label: Blogs
