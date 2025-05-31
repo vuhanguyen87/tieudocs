@@ -27,7 +27,7 @@ jobs:
           IMAGES_QUALITY: "90"
           IMAGES_FORMATS: "jpg, jpge, png" 
           IMAGES_DIRECTORIES: "docs/media"
-          IMAGES_PREFIX: "md/"
+          IMAGES_SUFFIX: "_md"
 
       - name: Push changes
         run: |
