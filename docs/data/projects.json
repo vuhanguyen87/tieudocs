@@ -161,6 +161,7 @@
         "media/1ccddbfe-c144-4da8-a503-19fcd4b555b0.jpg"
       ],
       "video": "https://youtu.be/SoI_vm0aMxE",
+      "order": 4,
       "excerpt": ""
     },
     {
@@ -261,6 +262,7 @@
         "media/vlcsnap-2025-05-28-11h23m10s619.jpg"
       ],
       "video": "https://youtu.be/hlAnCJEJWsM",
+      "order": 2,
       "excerpt": ""
     },
     {
@@ -323,6 +325,7 @@
         "media/vlcsnap-2025-05-28-11h59m56s681.jpg"
       ],
       "video": "https://youtu.be/R5jYqEJIVJM",
+      "order": 3,
       "excerpt": ""
     },
     {
