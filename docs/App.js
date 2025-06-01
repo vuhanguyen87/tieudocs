@@ -4,9 +4,9 @@
   // import Header from './components/Header.vue'
   import { Projects } from './pages/Projects.js'
   import { Project } from './pages/Project.js'
+  import { Gallery } from './pages/Gallery.js'
   // import ReelsSection from './components/ReelsSection.vue'
   // import ContactSection from './components/ContactSection.vue'
-  
   export const App = {
     components: {
       'loading-screen': LoadingScreen,
@@ -63,13 +63,13 @@
           .filter(project => project.category === category.title)
           .sort((a, b) => {
             if (typeof a.order !== 'number') {
-              a.order = 9999
+              a.order = 1
             }
             if (typeof b.order !== 'number') {
-              b.order = 9999
+              b.order = 1
             }
 
-            return a.order - b.order
+            return b.order - a.order
           })
       }
 
@@ -105,6 +105,12 @@
               data: project
             }
             break
+          case 'gallery':
+            currentRoute.value = {
+              view: markRaw(Gallery),
+              name: 'gallery',
+            }
+            break
           default:
             // Handle unknown routes by redirecting to home
             window.location.hash = '#/'
@@ -138,6 +144,9 @@
                 <a href="#/" 
                     class="hover:text-gray-100"
                     :class="{ 'text-white font-bold': [ 'home', 'projects' ].includes(currentRoute.name) }">Projects</a>
+                <a href="#/gallery" 
+                    class="hover:text-gray-100"
+                    :class="{ 'text-white font-bold': currentRoute.name === 'gallery' }">Gallery</a>
                 <a href="#/blog" 
                     class="hover:text-gray-100"
                     :class="{ 'text-white font-bold': currentRoute.name === 'blog' }">Blog</a>
