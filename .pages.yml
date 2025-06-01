@@ -37,8 +37,8 @@ content:
       - name: video
         label: Video
         type: text
-      - name: order
-        label: Order
+      - name: priority
+        label: Priority
         type: number
         options:
           min: 1
