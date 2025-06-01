@@ -28,6 +28,7 @@
         "media/DLS_Master-0004.png"
       ],
       "video": "https://youtu.be/Le1fL3YySks",
+      "order": 1,
       "excerpt": ""
     },
     {
@@ -44,6 +45,7 @@
         "media/Sen _1.21.1.jpg"
       ],
       "video": "https://youtu.be/A51P-ZQsTSs",
+      "order": 2,
       "excerpt": ""
     },
     {
@@ -60,6 +62,7 @@
         "media/vlcsnap-2025-05-25-23h12m25s546.jpg"
       ],
       "video": "https://youtu.be/_fjPkyAX4LE",
+      "order": 2,
       "excerpt": ""
     },
     {
@@ -77,6 +80,7 @@
         "media/vlcsnap-2025-05-25-23h37m13s750.jpg"
       ],
       "video": "https://youtu.be/vkbvZl8Urf0",
+      "order": 1,
       "excerpt": ""
     },
     {
@@ -93,6 +97,7 @@
         "media/vlcsnap-2025-05-26-12h44m07s645.jpg"
       ],
       "video": "https://youtu.be/xRJ2xmEFmEs",
+      "order": 1,
       "excerpt": ""
     },
     {
@@ -110,6 +115,7 @@
         "media/vlcsnap-2025-05-26-12h25m52s852.jpg"
       ],
       "video": "https://youtu.be/NEpKrKsTO7Y",
+      "order": 3,
       "excerpt": ""
     },
     {
@@ -125,6 +131,7 @@
         "media/vlcsnap-2025-05-26-12h28m56s641.jpg"
       ],
       "video": "https://youtu.be/OE-gzaysb8M",
+      "order": 4,
       "excerpt": ""
     },
     {
@@ -142,6 +149,7 @@
         "media/vlcsnap-2025-05-27-17h23m00s300.jpg"
       ],
       "video": "https://youtu.be/gXMcGntsGL8",
+      "order": 2,
       "excerpt": ""
     },
     {
@@ -155,6 +163,7 @@
         "media/1ccddbfe-c144-4da8-a503-19fcd4b555b0.jpg"
       ],
       "video": "https://youtu.be/SoI_vm0aMxE",
+      "order": 4,
       "excerpt": ""
     },
     {
@@ -172,6 +181,7 @@
         "media/vlcsnap-2025-05-27-17h44m40s715-1.jpg"
       ],
       "video": "https://youtu.be/k2Wn2oKRT6k",
+      "order": 3,
       "excerpt": ""
     },
     {
@@ -189,6 +199,7 @@
         "media/vlcsnap-2025-05-27-17h46m43s077.jpg"
       ],
       "video": "https://youtu.be/GwsjcEt2B-g",
+      "order": 4,
       "excerpt": ""
     },
     {
@@ -204,6 +215,7 @@
         "media/vlcsnap-2025-05-28-11h43m29s207.jpg"
       ],
       "video": "https://youtu.be/Y6a2nMl_ncY",
+      "order": 4,
       "excerpt": ""
     },
     {
@@ -219,7 +231,7 @@
         "media/vlcsnap-2025-05-28-11h47m53s002.jpg"
       ],
       "video": "https://youtu.be/VyLiEo54EWM",
-      "order": 1,
+      "order": 5,
       "excerpt": ""
     },
     {
@@ -236,6 +248,7 @@
         "media/vlcsnap-2025-05-28-11h37m20s448.jpg"
       ],
       "video": "https://youtu.be/-unUTj40Haw",
+      "order": 3,
       "excerpt": ""
     },
     {
@@ -251,6 +264,7 @@
         "media/vlcsnap-2025-05-28-11h23m10s619.jpg"
       ],
       "video": "https://youtu.be/hlAnCJEJWsM",
+      "order": 2,
       "excerpt": ""
     },
     {
@@ -266,6 +280,7 @@
         "media/vlcsnap-2025-05-28-11h30m03s920.jpg"
       ],
       "video": "https://youtu.be/isAOOqC7QHY",
+      "order": 5,
       "excerpt": ""
     },
     {
@@ -282,6 +297,7 @@
         "media/vlcsnap-2025-05-28-11h24m33s872.jpg"
       ],
       "video": "https://youtu.be/iEjQKJUZcq4",
+      "order": 6,
       "excerpt": ""
     },
     {
@@ -299,6 +315,7 @@
         "media/vlcsnap-2025-05-28-16h06m45s359.jpg"
       ],
       "video": "https://youtu.be/DudFhk1gFiQ",
+      "order": 5,
       "excerpt": ""
     },
     {
@@ -312,6 +329,7 @@
         "media/vlcsnap-2025-05-28-11h59m56s681.jpg"
       ],
       "video": "https://youtu.be/R5jYqEJIVJM",
+      "order": 3,
       "excerpt": ""
     },
     {
@@ -329,6 +347,7 @@
         "media/493931900_10213623559341043_7567957917848882777_n.jpg"
       ],
       "video": "https://youtu.be/PLq4ZwB7L8s?si=bNDUMGU7Mu0HR3DW",
+      "order": 1,
       "excerpt": ""
     },
     {
@@ -346,6 +365,7 @@
         "media/vlcsnap-2025-05-28-15h46m18s556.jpg"
       ],
       "video": "https://youtu.be/TJ9SsQ9C1uc",
+      "order": 2,
       "excerpt": ""
     },
     {
@@ -362,6 +382,7 @@
         "media/489538257_1215930960054932_534982124794653166_n.jpg"
       ],
       "video": "https://youtu.be/zeDFCPJ6VGU",
+      "order": 1,
       "excerpt": ""
     },
     {
@@ -379,6 +400,7 @@
         "media/vlcsnap-2025-05-28-11h12m07s361.jpg"
       ],
       "video": "https://youtu.be/4nGgj3B62HE",
+      "order": 3,
       "excerpt": ""
     }
   ]

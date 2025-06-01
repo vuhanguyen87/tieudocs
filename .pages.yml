@@ -37,11 +37,24 @@ content:
       - name: video
         label: Video
         type: text
-      - name: order
-        label: Order
+      - name: priority
+        label: Priority
         type: number
         options:
           min: 1
+  - name: gallery
+    label: Gallery
+    path: docs/data/gallery.json
+    type: file
+    fields:
+      - name: photos
+        label: Photos
+        type: image
+        list: true
+        options:
+          multiple: true
+          path: docs/media/gallery
+          extensions: [jpg, png]
   - name: blogs
     label: Blogs
     path: docs/data/blogs
