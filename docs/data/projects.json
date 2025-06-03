@@ -97,7 +97,7 @@
         "media/vlcsnap-2025-05-26-12h44m07s645.jpg"
       ],
       "video": "https://youtu.be/xRJ2xmEFmEs",
-      "order": 1,
+      "priority": 100,
       "excerpt": ""
     },
     {
@@ -149,7 +149,7 @@
         "media/vlcsnap-2025-05-27-17h23m00s300.jpg"
       ],
       "video": "https://youtu.be/gXMcGntsGL8",
-      "order": 2,
+      "priority": 1,
       "excerpt": ""
     },
     {
@@ -400,7 +400,7 @@
         "media/vlcsnap-2025-05-28-11h12m07s361.jpg"
       ],
       "video": "https://youtu.be/4nGgj3B62HE",
-      "order": 3,
+      "priority": 2,
       "excerpt": ""
     }
   ]
