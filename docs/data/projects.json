@@ -28,7 +28,7 @@
         "media/DLS_Master-0004.png"
       ],
       "video": "https://youtu.be/Le1fL3YySks",
-      "order": 1,
+      "priority": 100,
       "excerpt": ""
     },
     {
@@ -45,7 +45,7 @@
         "media/Sen _1.21.1.jpg"
       ],
       "video": "https://youtu.be/A51P-ZQsTSs",
-      "order": 2,
+      "priority": 50,
       "excerpt": ""
     },
     {
@@ -215,7 +215,7 @@
         "media/vlcsnap-2025-05-28-11h43m29s207.jpg"
       ],
       "video": "https://youtu.be/Y6a2nMl_ncY",
-      "order": 4,
+      "priority": 11,
       "excerpt": ""
     },
     {
@@ -231,7 +231,7 @@
         "media/vlcsnap-2025-05-28-11h47m53s002.jpg"
       ],
       "video": "https://youtu.be/VyLiEo54EWM",
-      "order": 5,
+      "priority": 1,
       "excerpt": ""
     },
     {
@@ -248,7 +248,7 @@
         "media/vlcsnap-2025-05-28-11h37m20s448.jpg"
       ],
       "video": "https://youtu.be/-unUTj40Haw",
-      "order": 3,
+      "priority": 10,
       "excerpt": ""
     },
     {
