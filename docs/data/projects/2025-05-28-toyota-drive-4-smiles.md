@@ -9,5 +9,5 @@ images:
   - media/489228717_1215932270054801_3741671573003330185_n.jpg
   - media/489538257_1215930960054932_534982124794653166_n.jpg
 video: https://youtu.be/zeDFCPJ6VGU
-order: 1
+priority: 100
 ---
