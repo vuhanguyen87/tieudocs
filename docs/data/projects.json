@@ -62,7 +62,7 @@
         "media/vlcsnap-2025-05-25-23h12m25s546.jpg"
       ],
       "video": "https://youtu.be/_fjPkyAX4LE",
-      "order": 2,
+      "priority": 100,
       "excerpt": ""
     },
     {
@@ -80,7 +80,7 @@
         "media/vlcsnap-2025-05-25-23h37m13s750.jpg"
       ],
       "video": "https://youtu.be/vkbvZl8Urf0",
-      "order": 1,
+      "priority": 101,
       "excerpt": ""
     },
     {
@@ -115,7 +115,7 @@
         "media/vlcsnap-2025-05-26-12h25m52s852.jpg"
       ],
       "video": "https://youtu.be/NEpKrKsTO7Y",
-      "order": 3,
+      "priority": 50,
       "excerpt": ""
     },
     {
@@ -131,7 +131,7 @@
         "media/vlcsnap-2025-05-26-12h28m56s641.jpg"
       ],
       "video": "https://youtu.be/OE-gzaysb8M",
-      "order": 4,
+      "priority": 40,
       "excerpt": ""
     },
     {
@@ -280,7 +280,7 @@
         "media/vlcsnap-2025-05-28-11h30m03s920.jpg"
       ],
       "video": "https://youtu.be/isAOOqC7QHY",
-      "order": 5,
+      "priority": 5,
       "excerpt": ""
     },
     {
@@ -297,7 +297,7 @@
         "media/vlcsnap-2025-05-28-11h24m33s872.jpg"
       ],
       "video": "https://youtu.be/iEjQKJUZcq4",
-      "order": 6,
+      "priority": 1,
       "excerpt": ""
     },
     {
