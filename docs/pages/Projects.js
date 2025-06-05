@@ -1,10 +1,12 @@
 import { ref, computed, inject } from 'vue'
 import { ProjectCard } from '../components/ProjectCard.js'
+import { ProjectCatsNav } from '../components/ProjectCatsNav.js'
 
 
 export const Projects = {
     components: {
-        'project-card': ProjectCard
+        'project-card': ProjectCard,
+        'project-cats-nav': ProjectCatsNav
     },
     props: { data: { default: {
         projects: [],
@@ -27,19 +29,9 @@ export const Projects = {
     },
     template: `
     <section>
-        <ul class="grid grid-cols-2 md:grid-cols-none md:flex justify-center items-center mx-3 md:space-x-4">
-            <template v-for="(category, index) in allCategories" :key="index">
-                <li 
-                    class="before:content-['|']"
-                    :class="{ 'md:before:content-none': index == 0 }">
-                    <a
-                        class="py-2 hover:font-bold hover:text-xl"
-                        :class="{ 'font-bold md:text-lg': selectedCatTitle == category.title }"
-                        :href=" index == 0 ? '#/' : '#/projects/' + category.slug"
-                        >{{ category.title }}</a>
-                </li>
-            </template>
-        </ul>
+        <project-cats-nav 
+            :all-categories="allCategories" 
+            :selected-cat-title="selectedCatTitle" />
         <div class="mt-8 grid md:grid-cols-4 space-y-4">
             <div
                 :key="index"

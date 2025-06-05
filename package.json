@@ -6,7 +6,7 @@
   },
   "scripts": {
     "dev": "tailwindcss -i ./tailwind.css -o ./docs/assets/style.css --watch",
-    "serve": "dev-server docs --port 3000"
+    "serve": "dev-server docs --port 3000 & tailwindcss -i ./tailwind.css -o ./docs/assets/style.css --watch"
   },
   "dependencies": {
     "dev-server": "^0.2.0"
