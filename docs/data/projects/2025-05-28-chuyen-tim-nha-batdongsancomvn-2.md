@@ -8,5 +8,5 @@ images:
   - media/vlcsnap-2025-05-28-11h47m00s241.jpg
   - media/vlcsnap-2025-05-28-11h47m53s002.jpg
 video: https://youtu.be/VyLiEo54EWM
-order: 5
+priority: 1
 ---

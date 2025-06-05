@@ -10,5 +10,5 @@ images:
   - media/vlcsnap-2025-05-28-16h08m24s226.jpg
   - media/vlcsnap-2025-05-28-16h06m45s359.jpg
 video: https://youtu.be/DudFhk1gFiQ
-order: 5
+priority: 30
 ---
