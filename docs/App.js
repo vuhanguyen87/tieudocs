@@ -62,14 +62,14 @@
         return config.value.projects
           .filter(project => project.category === category.title)
           .sort((a, b) => {
-            if (typeof a.order !== 'number') {
-              a.order = 1
+            if (typeof a.priority !== 'number') {
+              a.priority = 1
             }
-            if (typeof b.order !== 'number') {
-              b.order = 1
+            if (typeof b.priority !== 'number') {
+              b.priority = 1
             }
 
-            return b.order - a.order
+            return b.priority - a.priority
           })
       }
 
