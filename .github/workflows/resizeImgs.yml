@@ -29,7 +29,7 @@ jobs:
           IMAGES_FORMATS: "jpg, jpeg, png" 
           IMAGES_DIRECTORIES: "docs/media/gallery"
           IMAGES_SUFFIX: "_md"
-          DEBUG: true
+          DEBUG: True
 
       - name: Push changes
         run: |
