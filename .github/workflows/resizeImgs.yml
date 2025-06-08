@@ -27,7 +27,7 @@ jobs:
           IMAGES_MAX_WIDTH: "1280"
           IMAGES_QUALITY: "85"
           IMAGES_FORMATS: "jpg, jpeg, png" 
-          IMAGES_DIRECTORIES: "docs/media,docs/media/gallery"
+          IMAGES_DIRECTORIES: "docs/media/gallery"
           IMAGES_SUFFIX: "_md"
 
       - name: Push changes
