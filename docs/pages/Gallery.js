@@ -131,7 +131,7 @@ export const Gallery = {
         <div class="mt-4 md:mt-8 mx-4 md:mx-0">
             <div 
                 ref="masonryContainer"
-                class="masonry-container relative"
+                class="masonry-container relative bg-gray-900"
                 style="width: 100%;"
             >
                 <div 
@@ -140,7 +140,7 @@ export const Gallery = {
                     class="masonry-item"
                 >
                     <img 
-                        :src="photo" 
+                        :src="imgURL(photo)" 
                         :alt="'Gallery image ' + (index + 1)"
                         class="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
                         loading="lazy"
