@@ -31,10 +31,12 @@ jobs:
           IMAGES_SUFFIX: "_md"
           DEBUG: True
 
-      - name: Push changes
-        run: |
-          git config --global user.name 'Bot'
-          git config --global user.email '<>'
-          git add .
-          git commit -m "Update converted MD files"
-          git push
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v4
+        with:
+          add: 'public/'
+          author_name: "github-actions[bot]"
+          author_email: "github-actions@users.noreply.github.com"
+          message: |
+            Images Reszied by Github action
+            ${{steps.resize-images.outputs.result}}
