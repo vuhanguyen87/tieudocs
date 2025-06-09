@@ -108,6 +108,14 @@ export const Gallery = {
             loading.value = false
         }
 
+        function handleImageLoad(event) {
+            // Add fade-in effect
+            event.target.style.opacity = '1'
+            
+            // Rearrange masonry after image loads
+            setTimeout(() => arrangeMasonry(), 100)
+        }
+
         function handleResize() {
             arrangeMasonry()
         }
@@ -122,7 +130,8 @@ export const Gallery = {
             displayedPhotos, 
             imgURL, 
             masonryContainer,
-            arrangeMasonry
+            arrangeMasonry,
+            handleImageLoad
         }
     },
     template: `
@@ -142,10 +151,9 @@ export const Gallery = {
                     <img 
                         :src="imgURL(photo)" 
                         :alt="'Gallery image ' + (index + 1)"
-                        class="w-full rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+                        class="w-full rounded-lg shadow-md hover:shadow-lg transition-all duration-500 opacity-0"
                         loading="lazy"
-                        @load="arrangeMasonry"
-                        v-show="!loading"
+                        @load="(event) => handleImageLoad(event)"
                     />
                 </div>
             </div>
