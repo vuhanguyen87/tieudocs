@@ -1,7 +1,7 @@
 ---
 title: JOIN THE "PROTHERHOOD" WITH ISUZU VIETNAM
 role: 1st AD
-description: "PH: Trà đá Cinema"
+description: "PH: Libra Film"
 category: iTVC
 images:
   - media/vlcsnap-2025-05-25-23h10m06s283.jpg
