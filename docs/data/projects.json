@@ -410,6 +410,9 @@
       "role": "DoP",
       "description": "PH: Dream Forest Pictures",
       "category": "Documentary",
+      "images": [
+        "media/TCB_VIDEO 2_BỐ MẸ EM LÀ BANKER_200625-0001.png"
+      ],
       "video": "https://youtu.be/z4K2Hs00clY",
       "priority": 1,
       "excerpt": ""
@@ -421,6 +424,9 @@
       "role": "CamOP - Editor",
       "description": "PH: SpaceX Media",
       "category": "Others",
+      "images": [
+        "media/BTS MV Nuoc mat hinh nhan.DEMO-0006-1.jpeg"
+      ],
       "video": "https://youtu.be/296fXSpGMVE",
       "priority": 1,
       "excerpt": ""
@@ -432,6 +438,9 @@
       "role": "CamOP",
       "description": "PH: Dream Forest Pictures",
       "category": "iTVC",
+      "images": [
+        "media/MSC & VIMC - THE CIRCLE OF TRUST-0005.jpeg"
+      ],
       "video": "https://youtu.be/-_MVOBV-Fyg",
       "priority": 1,
       "excerpt": ""
@@ -443,6 +452,9 @@
       "role": "CamOP",
       "description": "PH: Min Pictures",
       "category": "Documentary",
+      "images": [
+        "media/TTS Sìn Hồ Vươn Mình-0003.jpeg"
+      ],
       "video": "https://youtu.be/g8OV7EerUeE",
       "priority": 2,
       "excerpt": ""
@@ -454,6 +466,9 @@
       "role": "Director",
       "description": "PH: Min Pictures",
       "category": "Documentary",
+      "images": [
+        "media/TTS Tết Sớm_Final-0001.jpeg"
+      ],
       "video": "https://youtu.be/SmBBIvRIu_k",
       "priority": 1,
       "excerpt": ""
@@ -462,9 +477,12 @@
       "id": "2026-10-20-the-greatest-work-tcb",
       "contents": "",
       "title": "The Greatest Work - TCB",
-      "role": "DoP",
+      "role": "CamOP",
       "description": "PH: Dream Forest Pictures",
       "category": "Documentary",
+      "images": [
+        "media/TCB_VIDEO 2_BỐ MẸ EM LÀ BANKER_200625-0001.jpeg"
+      ],
       "video": "https://youtu.be/4UaZyQU1C14",
       "priority": 1,
       "excerpt": ""
