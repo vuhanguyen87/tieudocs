@@ -504,6 +504,25 @@
       "video": "https://youtu.be/4UaZyQU1C14",
       "priority": 7,
       "excerpt": ""
+    },
+    {
+      "id": "2026-11-16-chu-nu-tts-bat-trang",
+      "contents": "",
+      "title": "CHỦ NỮ - TTS Bát Tràng",
+      "role": "DoP",
+      "description": "PH: Mins Pictures",
+      "category": "Documentary",
+      "images": [
+        "media/Bát Tràng TTS - ENG 16-9 ko LOGO-0005.jpeg",
+        "media/Bát Tràng TTS - ENG 16-9 ko LOGO-0001.jpeg",
+        "media/Bát Tràng TTS - ENG 16-9 ko LOGO-0002.jpeg",
+        "media/Bát Tràng TTS - ENG 16-9 ko LOGO-0003.jpeg",
+        "media/Bát Tràng TTS - ENG 16-9 ko LOGO-0004.jpeg",
+        "media/Bát Tràng TTS - ENG 16-9 ko LOGO-0006.jpeg"
+      ],
+      "video": "https://youtu.be/QThnRatenh4",
+      "priority": 10,
+      "excerpt": ""
     }
   ]
 }
