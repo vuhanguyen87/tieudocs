@@ -6,5 +6,5 @@ category: Documentary
 images:
   - media/TCB_VIDEO 2_BỐ MẸ EM LÀ BANKER_200625-0001.png
 video: https://youtu.be/z4K2Hs00clY
-priority: 1
+priority: 6
 ---
