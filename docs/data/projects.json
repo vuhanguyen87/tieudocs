@@ -62,7 +62,7 @@
         "media/vlcsnap-2025-05-25-23h12m25s546.jpg"
       ],
       "video": "https://youtu.be/_fjPkyAX4LE",
-      "priority": 100,
+      "priority": 5,
       "excerpt": ""
     },
     {
@@ -80,7 +80,7 @@
         "media/vlcsnap-2025-05-25-23h37m13s750.jpg"
       ],
       "video": "https://youtu.be/vkbvZl8Urf0",
-      "priority": 101,
+      "priority": 6,
       "excerpt": ""
     },
     {
@@ -115,7 +115,7 @@
         "media/vlcsnap-2025-05-26-12h25m52s852.jpg"
       ],
       "video": "https://youtu.be/NEpKrKsTO7Y",
-      "priority": 50,
+      "priority": 4,
       "excerpt": ""
     },
     {
@@ -131,7 +131,7 @@
         "media/vlcsnap-2025-05-26-12h28m56s641.jpg"
       ],
       "video": "https://youtu.be/OE-gzaysb8M",
-      "priority": 40,
+      "priority": 3,
       "excerpt": ""
     },
     {
@@ -442,7 +442,7 @@
         "media/MSC & VIMC - THE CIRCLE OF TRUST-0005.jpeg"
       ],
       "video": "https://youtu.be/-_MVOBV-Fyg",
-      "priority": 102,
+      "priority": 7,
       "excerpt": ""
     },
     {
