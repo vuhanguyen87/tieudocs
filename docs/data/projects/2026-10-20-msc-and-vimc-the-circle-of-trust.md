@@ -6,5 +6,5 @@ category: iTVC
 images:
   - media/MSC & VIMC - THE CIRCLE OF TRUST-0005.jpeg
 video: https://youtu.be/-_MVOBV-Fyg
-priority: 102
+priority: 7
 ---
