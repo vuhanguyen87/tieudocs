@@ -1,7 +1,7 @@
 ---
 title: CHỦ NỮ - TTS Bát Tràng
 role: DoP
-description: "PH: Mins Pictures"
+description: "PH: Min Pictures"
 category: Documentary
 images:
   - media/Bát Tràng TTS - ENG 16-9 ko LOGO-0005.jpeg
