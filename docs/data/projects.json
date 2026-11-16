@@ -458,11 +458,16 @@
       "id": "2026-10-20-sin-ho-vuon-minh-tts",
       "contents": "",
       "title": "Sìn Hồ Vươn Mình - TTS",
-      "role": "CamOP",
+      "role": "1st AD",
       "description": "PH: Min Pictures",
       "category": "Documentary",
       "images": [
-        "media/TTS Sìn Hồ Vươn Mình-0003.jpeg"
+        "media/TTS Sìn Hồ Vươn Mình-0003.jpeg",
+        "media/TTS Sìn Hồ Vươn Mình-0016.jpeg",
+        "media/TTS Sìn Hồ Vươn Mình-0017.jpeg",
+        "media/TTS Sìn Hồ Vươn Mình-0018.jpeg",
+        "media/TTS Sìn Hồ Vươn Mình-0019.jpeg",
+        "media/TTS Sìn Hồ Vươn Mình-0020.jpeg"
       ],
       "video": "https://youtu.be/g8OV7EerUeE",
       "priority": 8,
@@ -476,7 +481,11 @@
       "description": "PH: Min Pictures",
       "category": "Documentary",
       "images": [
-        "media/TTS Tết Sớm_Final-0001.jpeg"
+        "media/654451226_26495431443427118_7767728138287956621_n.jpg",
+        "media/TTS Tết Sớm_Final-0001.jpeg",
+        "media/656631330_26495432236760372_1207406244056327578_n.jpg",
+        "media/TTS Tết Sớm_Final-0015.jpeg",
+        "media/656902685_26495431783427084_8473442749650682734_n-1.jpg"
       ],
       "video": "https://youtu.be/SmBBIvRIu_k",
       "priority": 9,
